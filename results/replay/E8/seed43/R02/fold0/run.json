@@ -1,0 +1,181 @@
+{
+  "scene": "R02",
+  "fold": 0,
+  "splits": {
+    "validation": [
+      "R02/training/29",
+      "R02/training/07",
+      "R02/training/15",
+      "R02/training/16"
+    ],
+    "reference": [
+      "R02/training/01",
+      "R02/training/20",
+      "R02/training/03",
+      "R02/training/12"
+    ],
+    "threshold": [
+      "R02/training/18",
+      "R02/training/25",
+      "R02/training/10",
+      "R02/training/28"
+    ],
+    "fit": [
+      "R02/training/09",
+      "R02/training/06",
+      "R02/training/08",
+      "R02/training/30",
+      "R02/training/23",
+      "R02/training/19",
+      "R02/training/26",
+      "R02/training/22",
+      "R02/training/05",
+      "R02/training/21",
+      "R02/training/13",
+      "R02/training/04"
+    ],
+    "normal_evaluation": [
+      "R02/training/17",
+      "R02/training/14",
+      "R02/training/02",
+      "R02/training/11",
+      "R02/training/24",
+      "R02/training/27"
+    ]
+  },
+  "status": "complete",
+  "config": {
+    "seed": 42,
+    "scenes": [
+      "R01",
+      "R02",
+      "R03",
+      "R04"
+    ],
+    "stride": 2,
+    "batch_size": 8,
+    "workers": 4,
+    "encoder": {
+      "family": "dinov2",
+      "model_id": "facebook/dinov2-base",
+      "revision": "f9e44c814b77203eaa57a6bdbbd535f21ede1415",
+      "image_size": 336,
+      "patch_grid": 6,
+      "patch_dim": 64,
+      "feature_layers": [
+        -1,
+        -3
+      ],
+      "seed": 42,
+      "device": "cuda"
+    },
+    "model": {
+      "seed": 43,
+      "cycle_grid": 128,
+      "cycle_latent": 24,
+      "harmonics_candidates": [
+        8
+      ],
+      "ridge_candidates": [
+        0.01
+      ],
+      "fit_samples": 4096,
+      "subspace_rank": 64,
+      "local_memory": 96,
+      "threshold_quantile": 0.99,
+      "process_weight": 1.0
+    }
+  },
+  "code_fingerprint": "0337e856a2486e504ee5998da132e06fd9528ea1e1a33bb8043d10218bf49304",
+  "diagnostics": {
+    "conditional_subspace": {
+      "rank": 64,
+      "samples": 3562,
+      "retained_variance": 0.7455161809921265,
+      "variance_target_met": false
+    },
+    "pooled_subspace": {
+      "rank": 46,
+      "samples": 3562,
+      "retained_variance": 0.9500395059585571,
+      "variance_target_met": true
+    },
+    "cycle": {
+      "normal_cycle_candidates": 12,
+      "median_period_source_frames": 596.0,
+      "template_temperature": 0.03,
+      "period_q10_q90": [
+        575.0,
+        609.2
+      ]
+    },
+    "mean_fit_cycle_confidence": 0.8351378787038787,
+    "selected_harmonics": 8,
+    "selected_ridge": 0.01,
+    "selection": [
+      {
+        "harmonics": 8,
+        "ridge": 0.01,
+        "normal_validation_mse": 7.764506335661281e-06
+      }
+    ]
+  },
+  "encoder_identity": "{\"device\": \"cuda\", \"extractor_version\": 1, \"family\": \"dinov2\", \"feature_layers\": [-1, -3], \"image_size\": 336, \"model_id\": \"facebook/dinov2-base\", \"patch_dim\": 64, \"patch_grid\": 6, \"preprocessing\": \"full_frame_letterbox\", \"resolved_revision\": \"f9e44c814b77203eaa57a6bdbbd535f21ede1415\", \"revision\": \"f9e44c814b77203eaa57a6bdbbd535f21ede1415\", \"seed\": 42, \"torch\": \"2.7.1+cu128\"}",
+  "cache_signatures": {
+    "R02/training/29": "39cb2349a2907431856278104dbea51467506b1d993a1da1a85d542bad8c745b",
+    "R02/training/07": "32dbfa59ca14bb13eab00c8b821f3b0ad541de6c5298a0b94eb38405cd5aa887",
+    "R02/training/15": "18106746df1b5fb536b733f0d1a9de1e6d9060e6bc0c58677240fe6d23b3729f",
+    "R02/training/16": "74743afdb78c8aadd7b80a29ff5f19018387f6f39f4f238a121e562d69433541",
+    "R02/training/01": "69089a93ce3e2360b03b7256982294edc1f5b4e08128c5956dfcbbbdde3b0d9a",
+    "R02/training/20": "034802acd86334122094ed7cc0b1aab15f20d322224ea94348c8c8b193ae08b3",
+    "R02/training/03": "4c37c146cd3e71136c26088daf7b0820645fedecbd6372dd20d74310451284d0",
+    "R02/training/12": "d4df7a70fc0501af0b70a7a9c5b94d4a4f645899b1de23956c13c9538367258e",
+    "R02/training/18": "443a8b3e9d27e5be410b706dc1d400414dce6edddbf7fbfa45ad4b91c066ad05",
+    "R02/training/25": "ea3f2dc8c9fe3e30bd38e7f975f07c212346fe7a66edd3d90c922180117cb97c",
+    "R02/training/10": "fde8ca0fdec3be8b32e0355bd71eb650b88b16507b88a2c7322e38d3b4185955",
+    "R02/training/28": "5e46efe84de1fe0610c7e8617cc0d5b6b923550b6eeb9390b820451a13d9cc08",
+    "R02/training/09": "cd8bc72089c99f55aab7fe38185ac8e2f92e1dbd065a1c14476b1efb91cf32ab",
+    "R02/training/06": "97c113e6c0762acbb976e92cfed01fedc954d164f67fb3917ae990535674a345",
+    "R02/training/08": "acdf0ec43f999e2aed0327e202fd21d92ad8fcddd887a10c9ee3c239b26a25bf",
+    "R02/training/30": "c373edc0959a25c7cdf69ea1c0b5611fc4f0cdc57b975c4aef9edc6ddad510c6",
+    "R02/training/23": "43c8e3a06aa528f945e7ada3f88ae49019d7e531969f2657a22f0ac778320f51",
+    "R02/training/19": "ab03e75a1f7489d1130b070b4173398876d6aa92c550e3ca624c0099474bfbf0",
+    "R02/training/26": "7e5099b9683b1c2465b2bae5964b803e3722295ce02b96c93de9595a0c538c25",
+    "R02/training/22": "19ba794ab31f4d5d6f381090e92ab9796cb6d7637a3f83e94fc5cb704a02cd69",
+    "R02/training/05": "892786f519902d9783c6c666aadda96df60955fb784527170c494c0853ca818e",
+    "R02/training/21": "61b3c64bf8d5f7ce8927997ede5795072f3e4ad699803f3a4e1c602303f58121",
+    "R02/training/13": "9432e8933d995c5b71a0eeae595c456898f320e6ac272ac13d8b5cc89728e5a1",
+    "R02/training/04": "ce37ed4d5d95d97ffc9926f3b9613d0c33eee6bcab39d4df539de0764c45b55e",
+    "R02/training/17": "666be3b7c4ff983bed6261845fd88ee67120796a424ba83f0790e98eb6355bbf",
+    "R02/training/14": "b26a8c75123c2c91b421f078d9ef34d81bc30b649fdc22d9ce645c2499629edb",
+    "R02/training/02": "2c4109a751b9eae9d7c71fa52814355168d20b3852caa8546b1dc0e1b87db2f6",
+    "R02/training/11": "0a34749f13743bdc26e03e763ed7f7bd3d8db88813a9a1982087abc8a1637b86",
+    "R02/training/24": "46c1973f601e3505b4f5bfe5527c37e8cf2485b9c86db2d9243cecd825a523a8",
+    "R02/training/27": "a44f0ec8de58fef26a17e2a7a141eecdb5769431e623f207e59a83e9c45b00d8",
+    "R02/testing/01": "910a6161c017049273c0ee1001c935321872f0cc9ccf813f88a585272c990bf3",
+    "R02/testing/02": "67f4d79540b26ce990e840ce21e463447913620709a726b16c791dd1de9a6269",
+    "R02/testing/03": "3da2aae073634139c77bdad2ff9b2a1c041f1064eede74550153c671a4baace4",
+    "R02/testing/04": "7ca42b2ab15dc560b1e19ece4a5e4cfad28e265d66b068986224684189f172fb",
+    "R02/testing/05": "020a3341ac1f658d8c3d39da6ba4aaf29fe929c1307286b8ada92008d2b3ad7b",
+    "R02/testing/06": "5c14ecb954877ddf781e54747e9a18b973cc6d9808d20514eb7ca41e001ed719",
+    "R02/testing/07": "eee830111b24083f909d26c0d411e6cb931fb30d2d5a289386b20c6d8657c3f0",
+    "R02/testing/08": "d4120f3990bdb30c10f958546d99cddb0d8e7383ffbed0dd09ead5b9f6baf078",
+    "R02/testing/09": "3391b784e333844234860e94a5aa8829cdef93a9c098f25b2cfba088e9c7a5e3",
+    "R02/testing/10": "79c94e0e041438eff4561220cf72116742d0c88d071e6c4e993b38e37060ccee",
+    "R02/testing/11": "c871e67e21ded1b2a19c02dc59e8e60edd1253cd061850f30f1aeedbb2154ef3",
+    "R02/testing/12": "2e85c7b6f208c9ab4b4b076061168faf6d385641a3eeaa8543f0e814712dadc7",
+    "R02/testing/13": "55605dcff15ebb7dbe4c0946192dd8e69513679002ac9f4291d45e99d3ae00d6",
+    "R02/testing/14": "268a27a34f14833ae809d3d4c1d1d6153ca77ea0b3cee2582e1f515d5312e9ab",
+    "R02/testing/15": "c85b039fb15b93ec18e7f496e8dc1536ec49c24b079c4f3b836691b8fd60d796"
+  },
+  "shared_tracker_and_appearance": true,
+  "legacy_refit_equivalence_passed": true,
+  "legacy_score_equivalence_passed": true,
+  "fourier_selection_frozen_across_rows": true,
+  "model_rows": 3,
+  "cells": 9,
+  "readouts_per_cell": 3,
+  "tracking_accuracy": null,
+  "historical_tests_diagnostic_only": true,
+  "wall_seconds": 14.682346699999925
+}

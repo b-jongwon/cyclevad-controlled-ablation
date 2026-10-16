@@ -1,0 +1,9 @@
+transformers==4.57.6
+numpy==2.2.6
+scipy==1.15.3
+scikit-learn==1.6.1
+pillow==12.3.0
+joblib==1.6.0
+threadpoolctl==3.7.0
+matplotlib==3.10.3
+pytest==9.1.1

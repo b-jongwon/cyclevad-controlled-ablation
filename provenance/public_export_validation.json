@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "upstream_and_addon_tests": 77,
+  "numeric_artifacts_verified": 2644,
+  "experiment_units_verified": 180,
+  "baseline_metric_comparisons_verified": 15808,
+  "primary_macro_rows_verified": 54,
+  "portable_prepare_real_dataset": "passed:177 videos",
+  "portable_full_retraining_repeated": false,
+  "original_completed_experiment_preserved": true,
+  "original_source_and_execution_hashes_verified": true
+}

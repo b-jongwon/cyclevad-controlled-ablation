@@ -1,0 +1,1082 @@
+[
+  {
+    "base_arm": "S0_f25__head_only",
+    "partition": "reference",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S0_f25__head_only",
+    "partition": "threshold",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S0_f25__head_only",
+    "partition": "normal_evaluation",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S0_f25__head_only",
+    "partition": "historical_test",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S0_f25__appearance_head",
+    "partition": "reference",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S0_f25__appearance_head",
+    "partition": "threshold",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S0_f25__appearance_head",
+    "partition": "normal_evaluation",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S0_f25__appearance_head",
+    "partition": "historical_test",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S1_f25__head_only",
+    "partition": "reference",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S1_f25__head_only",
+    "partition": "threshold",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S1_f25__head_only",
+    "partition": "normal_evaluation",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S1_f25__head_only",
+    "partition": "historical_test",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S1_f25__appearance_head",
+    "partition": "reference",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S1_f25__appearance_head",
+    "partition": "threshold",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S1_f25__appearance_head",
+    "partition": "normal_evaluation",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S1_f25__appearance_head",
+    "partition": "historical_test",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S2_K4_f25__head_only",
+    "partition": "reference",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S2_K4_f25__head_only",
+    "partition": "threshold",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S2_K4_f25__head_only",
+    "partition": "normal_evaluation",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S2_K4_f25__head_only",
+    "partition": "historical_test",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S2_K4_f25__appearance_head",
+    "partition": "reference",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S2_K4_f25__appearance_head",
+    "partition": "threshold",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S2_K4_f25__appearance_head",
+    "partition": "normal_evaluation",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S2_K4_f25__appearance_head",
+    "partition": "historical_test",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S2_K8_f25__head_only",
+    "partition": "reference",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S2_K8_f25__head_only",
+    "partition": "threshold",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S2_K8_f25__head_only",
+    "partition": "normal_evaluation",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S2_K8_f25__head_only",
+    "partition": "historical_test",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S2_K8_f25__appearance_head",
+    "partition": "reference",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S2_K8_f25__appearance_head",
+    "partition": "threshold",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S2_K8_f25__appearance_head",
+    "partition": "normal_evaluation",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S2_K8_f25__appearance_head",
+    "partition": "historical_test",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S3_K4_f25__head_only",
+    "partition": "reference",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S3_K4_f25__head_only",
+    "partition": "threshold",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S3_K4_f25__head_only",
+    "partition": "normal_evaluation",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S3_K4_f25__head_only",
+    "partition": "historical_test",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S3_K4_f25__appearance_head",
+    "partition": "reference",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S3_K4_f25__appearance_head",
+    "partition": "threshold",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S3_K4_f25__appearance_head",
+    "partition": "normal_evaluation",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S3_K4_f25__appearance_head",
+    "partition": "historical_test",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S3_K8_f25__head_only",
+    "partition": "reference",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S3_K8_f25__head_only",
+    "partition": "threshold",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S3_K8_f25__head_only",
+    "partition": "normal_evaluation",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S3_K8_f25__head_only",
+    "partition": "historical_test",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S3_K8_f25__appearance_head",
+    "partition": "reference",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S3_K8_f25__appearance_head",
+    "partition": "threshold",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S3_K8_f25__appearance_head",
+    "partition": "normal_evaluation",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S3_K8_f25__appearance_head",
+    "partition": "historical_test",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S4_K4_f25__head_only",
+    "partition": "reference",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S4_K4_f25__head_only",
+    "partition": "threshold",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S4_K4_f25__head_only",
+    "partition": "normal_evaluation",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S4_K4_f25__head_only",
+    "partition": "historical_test",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S4_K4_f25__appearance_head",
+    "partition": "reference",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S4_K4_f25__appearance_head",
+    "partition": "threshold",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S4_K4_f25__appearance_head",
+    "partition": "normal_evaluation",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S4_K4_f25__appearance_head",
+    "partition": "historical_test",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S4_K8_f25__head_only",
+    "partition": "reference",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S4_K8_f25__head_only",
+    "partition": "threshold",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S4_K8_f25__head_only",
+    "partition": "normal_evaluation",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S4_K8_f25__head_only",
+    "partition": "historical_test",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S4_K8_f25__appearance_head",
+    "partition": "reference",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S4_K8_f25__appearance_head",
+    "partition": "threshold",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S4_K8_f25__appearance_head",
+    "partition": "normal_evaluation",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S4_K8_f25__appearance_head",
+    "partition": "historical_test",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S5_f25__head_only",
+    "partition": "reference",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S5_f25__head_only",
+    "partition": "threshold",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S5_f25__head_only",
+    "partition": "normal_evaluation",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S5_f25__head_only",
+    "partition": "historical_test",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S5_f25__appearance_head",
+    "partition": "reference",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S5_f25__appearance_head",
+    "partition": "threshold",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S5_f25__appearance_head",
+    "partition": "normal_evaluation",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S5_f25__appearance_head",
+    "partition": "historical_test",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S0_f50__head_only",
+    "partition": "reference",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S0_f50__head_only",
+    "partition": "threshold",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S0_f50__head_only",
+    "partition": "normal_evaluation",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S0_f50__head_only",
+    "partition": "historical_test",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S0_f50__appearance_head",
+    "partition": "reference",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S0_f50__appearance_head",
+    "partition": "threshold",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S0_f50__appearance_head",
+    "partition": "normal_evaluation",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S0_f50__appearance_head",
+    "partition": "historical_test",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S1_f50__head_only",
+    "partition": "reference",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S1_f50__head_only",
+    "partition": "threshold",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S1_f50__head_only",
+    "partition": "normal_evaluation",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S1_f50__head_only",
+    "partition": "historical_test",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S1_f50__appearance_head",
+    "partition": "reference",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S1_f50__appearance_head",
+    "partition": "threshold",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S1_f50__appearance_head",
+    "partition": "normal_evaluation",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S1_f50__appearance_head",
+    "partition": "historical_test",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S2_K4_f50__head_only",
+    "partition": "reference",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S2_K4_f50__head_only",
+    "partition": "threshold",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S2_K4_f50__head_only",
+    "partition": "normal_evaluation",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S2_K4_f50__head_only",
+    "partition": "historical_test",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S2_K4_f50__appearance_head",
+    "partition": "reference",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S2_K4_f50__appearance_head",
+    "partition": "threshold",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S2_K4_f50__appearance_head",
+    "partition": "normal_evaluation",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S2_K4_f50__appearance_head",
+    "partition": "historical_test",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S2_K8_f50__head_only",
+    "partition": "reference",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S2_K8_f50__head_only",
+    "partition": "threshold",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S2_K8_f50__head_only",
+    "partition": "normal_evaluation",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S2_K8_f50__head_only",
+    "partition": "historical_test",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S2_K8_f50__appearance_head",
+    "partition": "reference",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S2_K8_f50__appearance_head",
+    "partition": "threshold",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S2_K8_f50__appearance_head",
+    "partition": "normal_evaluation",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S2_K8_f50__appearance_head",
+    "partition": "historical_test",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S3_K4_f50__head_only",
+    "partition": "reference",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S3_K4_f50__head_only",
+    "partition": "threshold",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S3_K4_f50__head_only",
+    "partition": "normal_evaluation",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S3_K4_f50__head_only",
+    "partition": "historical_test",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S3_K4_f50__appearance_head",
+    "partition": "reference",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S3_K4_f50__appearance_head",
+    "partition": "threshold",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S3_K4_f50__appearance_head",
+    "partition": "normal_evaluation",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S3_K4_f50__appearance_head",
+    "partition": "historical_test",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S3_K8_f50__head_only",
+    "partition": "reference",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S3_K8_f50__head_only",
+    "partition": "threshold",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S3_K8_f50__head_only",
+    "partition": "normal_evaluation",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S3_K8_f50__head_only",
+    "partition": "historical_test",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S3_K8_f50__appearance_head",
+    "partition": "reference",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S3_K8_f50__appearance_head",
+    "partition": "threshold",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S3_K8_f50__appearance_head",
+    "partition": "normal_evaluation",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S3_K8_f50__appearance_head",
+    "partition": "historical_test",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S4_K4_f50__head_only",
+    "partition": "reference",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S4_K4_f50__head_only",
+    "partition": "threshold",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S4_K4_f50__head_only",
+    "partition": "normal_evaluation",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S4_K4_f50__head_only",
+    "partition": "historical_test",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S4_K4_f50__appearance_head",
+    "partition": "reference",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S4_K4_f50__appearance_head",
+    "partition": "threshold",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S4_K4_f50__appearance_head",
+    "partition": "normal_evaluation",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S4_K4_f50__appearance_head",
+    "partition": "historical_test",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S4_K8_f50__head_only",
+    "partition": "reference",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S4_K8_f50__head_only",
+    "partition": "threshold",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S4_K8_f50__head_only",
+    "partition": "normal_evaluation",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S4_K8_f50__head_only",
+    "partition": "historical_test",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S4_K8_f50__appearance_head",
+    "partition": "reference",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S4_K8_f50__appearance_head",
+    "partition": "threshold",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S4_K8_f50__appearance_head",
+    "partition": "normal_evaluation",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S4_K8_f50__appearance_head",
+    "partition": "historical_test",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S5_f50__head_only",
+    "partition": "reference",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S5_f50__head_only",
+    "partition": "threshold",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S5_f50__head_only",
+    "partition": "normal_evaluation",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S5_f50__head_only",
+    "partition": "historical_test",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S5_f50__appearance_head",
+    "partition": "reference",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S5_f50__appearance_head",
+    "partition": "threshold",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S5_f50__appearance_head",
+    "partition": "normal_evaluation",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S5_f50__appearance_head",
+    "partition": "historical_test",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S0_f100__head_only",
+    "partition": "reference",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S0_f100__head_only",
+    "partition": "threshold",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S0_f100__head_only",
+    "partition": "normal_evaluation",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S0_f100__head_only",
+    "partition": "historical_test",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S0_f100__appearance_head",
+    "partition": "reference",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S0_f100__appearance_head",
+    "partition": "threshold",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S0_f100__appearance_head",
+    "partition": "normal_evaluation",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S0_f100__appearance_head",
+    "partition": "historical_test",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S1_f100__head_only",
+    "partition": "reference",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S1_f100__head_only",
+    "partition": "threshold",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S1_f100__head_only",
+    "partition": "normal_evaluation",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S1_f100__head_only",
+    "partition": "historical_test",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S1_f100__appearance_head",
+    "partition": "reference",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S1_f100__appearance_head",
+    "partition": "threshold",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S1_f100__appearance_head",
+    "partition": "normal_evaluation",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S1_f100__appearance_head",
+    "partition": "historical_test",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S2_K4_f100__head_only",
+    "partition": "reference",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S2_K4_f100__head_only",
+    "partition": "threshold",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S2_K4_f100__head_only",
+    "partition": "normal_evaluation",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S2_K4_f100__head_only",
+    "partition": "historical_test",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S2_K4_f100__appearance_head",
+    "partition": "reference",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S2_K4_f100__appearance_head",
+    "partition": "threshold",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S2_K4_f100__appearance_head",
+    "partition": "normal_evaluation",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S2_K4_f100__appearance_head",
+    "partition": "historical_test",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S2_K8_f100__head_only",
+    "partition": "reference",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S2_K8_f100__head_only",
+    "partition": "threshold",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S2_K8_f100__head_only",
+    "partition": "normal_evaluation",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S2_K8_f100__head_only",
+    "partition": "historical_test",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S2_K8_f100__appearance_head",
+    "partition": "reference",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S2_K8_f100__appearance_head",
+    "partition": "threshold",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S2_K8_f100__appearance_head",
+    "partition": "normal_evaluation",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S2_K8_f100__appearance_head",
+    "partition": "historical_test",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S3_K4_f100__head_only",
+    "partition": "reference",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S3_K4_f100__head_only",
+    "partition": "threshold",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S3_K4_f100__head_only",
+    "partition": "normal_evaluation",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S3_K4_f100__head_only",
+    "partition": "historical_test",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S3_K4_f100__appearance_head",
+    "partition": "reference",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S3_K4_f100__appearance_head",
+    "partition": "threshold",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S3_K4_f100__appearance_head",
+    "partition": "normal_evaluation",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S3_K4_f100__appearance_head",
+    "partition": "historical_test",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S3_K8_f100__head_only",
+    "partition": "reference",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S3_K8_f100__head_only",
+    "partition": "threshold",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S3_K8_f100__head_only",
+    "partition": "normal_evaluation",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S3_K8_f100__head_only",
+    "partition": "historical_test",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S3_K8_f100__appearance_head",
+    "partition": "reference",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S3_K8_f100__appearance_head",
+    "partition": "threshold",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S3_K8_f100__appearance_head",
+    "partition": "normal_evaluation",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S3_K8_f100__appearance_head",
+    "partition": "historical_test",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S4_K4_f100__head_only",
+    "partition": "reference",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S4_K4_f100__head_only",
+    "partition": "threshold",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S4_K4_f100__head_only",
+    "partition": "normal_evaluation",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S4_K4_f100__head_only",
+    "partition": "historical_test",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S4_K4_f100__appearance_head",
+    "partition": "reference",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S4_K4_f100__appearance_head",
+    "partition": "threshold",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S4_K4_f100__appearance_head",
+    "partition": "normal_evaluation",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S4_K4_f100__appearance_head",
+    "partition": "historical_test",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S4_K8_f100__head_only",
+    "partition": "reference",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S4_K8_f100__head_only",
+    "partition": "threshold",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S4_K8_f100__head_only",
+    "partition": "normal_evaluation",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S4_K8_f100__head_only",
+    "partition": "historical_test",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S4_K8_f100__appearance_head",
+    "partition": "reference",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S4_K8_f100__appearance_head",
+    "partition": "threshold",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S4_K8_f100__appearance_head",
+    "partition": "normal_evaluation",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S4_K8_f100__appearance_head",
+    "partition": "historical_test",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S5_f100__head_only",
+    "partition": "reference",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S5_f100__head_only",
+    "partition": "threshold",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S5_f100__head_only",
+    "partition": "normal_evaluation",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S5_f100__head_only",
+    "partition": "historical_test",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S5_f100__appearance_head",
+    "partition": "reference",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S5_f100__appearance_head",
+    "partition": "threshold",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S5_f100__appearance_head",
+    "partition": "normal_evaluation",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "S5_f100__appearance_head",
+    "partition": "historical_test",
+    "original_local_metrics_equal": true
+  }
+]

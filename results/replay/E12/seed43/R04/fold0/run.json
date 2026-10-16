@@ -1,0 +1,1388 @@
+{
+  "status": "complete",
+  "scene": "R04",
+  "seed": 43,
+  "fold": 0,
+  "splits": {
+    "validation": [
+      "R04/training/14",
+      "R04/training/22",
+      "R04/training/23"
+    ],
+    "reference": [
+      "R04/training/21",
+      "R04/training/17",
+      "R04/training/15"
+    ],
+    "threshold": [
+      "R04/training/16",
+      "R04/training/10",
+      "R04/training/24"
+    ],
+    "fit": [
+      "R04/training/04",
+      "R04/training/25",
+      "R04/training/18",
+      "R04/training/12",
+      "R04/training/01",
+      "R04/training/11",
+      "R04/training/03",
+      "R04/training/13",
+      "R04/training/07",
+      "R04/training/06",
+      "R04/training/19"
+    ],
+    "normal_evaluation": [
+      "R04/training/05",
+      "R04/training/08",
+      "R04/training/09",
+      "R04/training/20",
+      "R04/training/02"
+    ]
+  },
+  "subsets": [
+    {
+      "fraction": 0.25,
+      "fit_ids": [
+        "R04/training/07",
+        "R04/training/12",
+        "R04/training/13"
+      ],
+      "fit_samples": 575,
+      "common_rank": 64,
+      "coverage": {
+        "4": {
+          "sample_counts": [
+            147,
+            135,
+            144,
+            149
+          ],
+          "source_counts": [
+            3,
+            3,
+            3,
+            3
+          ]
+        },
+        "8": {
+          "sample_counts": [
+            67,
+            80,
+            65,
+            70,
+            62,
+            82,
+            80,
+            69
+          ],
+          "source_counts": [
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3
+          ]
+        }
+      }
+    },
+    {
+      "fraction": 0.5,
+      "fit_ids": [
+        "R04/training/07",
+        "R04/training/12",
+        "R04/training/13",
+        "R04/training/01",
+        "R04/training/19",
+        "R04/training/11"
+      ],
+      "fit_samples": 1098,
+      "common_rank": 64,
+      "coverage": {
+        "4": {
+          "sample_counts": [
+            277,
+            286,
+            257,
+            278
+          ],
+          "source_counts": [
+            6,
+            6,
+            6,
+            6
+          ]
+        },
+        "8": {
+          "sample_counts": [
+            128,
+            149,
+            148,
+            138,
+            115,
+            142,
+            140,
+            138
+          ],
+          "source_counts": [
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6
+          ]
+        }
+      }
+    },
+    {
+      "fraction": 1.0,
+      "fit_ids": [
+        "R04/training/07",
+        "R04/training/12",
+        "R04/training/13",
+        "R04/training/01",
+        "R04/training/19",
+        "R04/training/11",
+        "R04/training/18",
+        "R04/training/25",
+        "R04/training/04",
+        "R04/training/03",
+        "R04/training/06"
+      ],
+      "fit_samples": 2165,
+      "common_rank": 64,
+      "coverage": {
+        "4": {
+          "sample_counts": [
+            556,
+            552,
+            512,
+            545
+          ],
+          "source_counts": [
+            11,
+            11,
+            11,
+            11
+          ]
+        },
+        "8": {
+          "sample_counts": [
+            257,
+            299,
+            269,
+            283,
+            221,
+            291,
+            275,
+            270
+          ],
+          "source_counts": [
+            11,
+            11,
+            11,
+            11,
+            11,
+            11,
+            11,
+            11
+          ]
+        }
+      }
+    }
+  ],
+  "models": [
+    {
+      "arm": "S0",
+      "fraction": 0.25,
+      "status": "complete",
+      "mean_kind": "global",
+      "covariance_bins": 0,
+      "model_array_bytes": 811264,
+      "calibration_array_bytes": 9056,
+      "head_array_bytes": 820320,
+      "actual_total_rank": 64,
+      "compressed_checkpoint_bytes": 763237,
+      "score_latency_ms_p50": 0.06940000002941815,
+      "score_latency_ms_p95": 0.07644999993772217,
+      "latency_scope": "batch1 head mean/PCA/calibration only, no encoder/tracker/A; 96 calls, first held-out normal source; sequential shared-host measurement",
+      "frame_thresholds": [
+        4.39268392914787,
+        4.729156165769083
+      ],
+      "window_thresholds": [
+        [
+          4.39268392914787,
+          4.952299717083292
+        ],
+        [
+          5.645446897643238,
+          7.041871549832802
+        ],
+        [
+          5.645446897643238,
+          7.041871549832802
+        ],
+        [
+          5.645446897643238,
+          7.041871549832802
+        ],
+        [
+          5.645446897643238,
+          7.041871549832802
+        ]
+      ],
+      "wall_seconds": 0.3553200999999717
+    },
+    {
+      "arm": "S1",
+      "fraction": 0.25,
+      "status": "complete",
+      "mean_kind": "continuous",
+      "covariance_bins": 0,
+      "model_array_bytes": 1007872,
+      "calibration_array_bytes": 9056,
+      "head_array_bytes": 1016928,
+      "actual_total_rank": 64,
+      "compressed_checkpoint_bytes": 946306,
+      "score_latency_ms_p50": 0.08269999989352073,
+      "score_latency_ms_p95": 0.09879999993245292,
+      "latency_scope": "batch1 head mean/PCA/calibration only, no encoder/tracker/A; 96 calls, first held-out normal source; sequential shared-host measurement",
+      "frame_thresholds": [
+        6.620349461235199,
+        6.667129369635643
+      ],
+      "window_thresholds": [
+        [
+          6.773343501705426,
+          6.773343501705426
+        ],
+        [
+          6.997915486862188,
+          7.041871549832802
+        ],
+        [
+          6.997915486862188,
+          7.041871549832802
+        ],
+        [
+          6.997915486862188,
+          7.041871549832802
+        ],
+        [
+          6.997915486862188,
+          7.041871549832802
+        ]
+      ],
+      "wall_seconds": 0.3647086000000854
+    },
+    {
+      "arm": "S2_K4",
+      "fraction": 0.25,
+      "status": "complete",
+      "mean_kind": "bins4",
+      "covariance_bins": 0,
+      "model_array_bytes": 848128,
+      "calibration_array_bytes": 9056,
+      "head_array_bytes": 857184,
+      "actual_total_rank": 64,
+      "compressed_checkpoint_bytes": 796400,
+      "score_latency_ms_p50": 0.07565000009890355,
+      "score_latency_ms_p95": 0.09632500018597057,
+      "latency_scope": "batch1 head mean/PCA/calibration only, no encoder/tracker/A; 96 calls, first held-out normal source; sequential shared-host measurement",
+      "frame_thresholds": [
+        5.239981789535073,
+        5.239981789535073
+      ],
+      "window_thresholds": [
+        [
+          5.645446897643238,
+          5.645446897643238
+        ],
+        [
+          6.4203072680693865,
+          7.041871549832802
+        ],
+        [
+          6.4203072680693865,
+          7.041871549832802
+        ],
+        [
+          6.4203072680693865,
+          7.041871549832802
+        ],
+        [
+          6.4203072680693865,
+          7.041871549832802
+        ]
+      ],
+      "wall_seconds": 0.36400849999972706
+    },
+    {
+      "arm": "S2_K8",
+      "fraction": 0.25,
+      "status": "complete",
+      "mean_kind": "bins8",
+      "covariance_bins": 0,
+      "model_array_bytes": 897280,
+      "calibration_array_bytes": 9056,
+      "head_array_bytes": 906336,
+      "actual_total_rank": 64,
+      "compressed_checkpoint_bytes": 841737,
+      "score_latency_ms_p50": 0.0737499999559077,
+      "score_latency_ms_p95": 0.08822500012684031,
+      "latency_scope": "batch1 head mean/PCA/calibration only, no encoder/tracker/A; 96 calls, first held-out normal source; sequential shared-host measurement",
+      "frame_thresholds": [
+        5.645446897643238,
+        5.645446897643238
+      ],
+      "window_thresholds": [
+        [
+          6.410357420634998,
+          6.887059094138779
+        ],
+        [
+          6.887059094138779,
+          7.041871549832802
+        ],
+        [
+          6.887059094138779,
+          7.041871549832802
+        ],
+        [
+          6.887059094138779,
+          7.041871549832802
+        ],
+        [
+          6.887059094138779,
+          7.041871549832802
+        ]
+      ],
+      "wall_seconds": 0.37014289999979155
+    },
+    {
+      "arm": "S3_K4",
+      "fraction": 0.25,
+      "status": "complete",
+      "mean_kind": "continuous",
+      "covariance_bins": 4,
+      "model_array_bytes": 1044736,
+      "calibration_array_bytes": 9056,
+      "head_array_bytes": 1053792,
+      "actual_total_rank": 64,
+      "compressed_checkpoint_bytes": 985351,
+      "score_latency_ms_p50": 0.07125000001906301,
+      "score_latency_ms_p95": 0.09329999977580883,
+      "latency_scope": "batch1 head mean/PCA/calibration only, no encoder/tracker/A; 96 calls, first held-out normal source; sequential shared-host measurement",
+      "frame_thresholds": [
+        5.645446897643238,
+        5.645446897643238
+      ],
+      "window_thresholds": [
+        [
+          7.245253836252421,
+          7.245253836252421
+        ],
+        [
+          7.454836119304071,
+          7.454836119304071
+        ],
+        [
+          7.454836119304071,
+          7.454836119304071
+        ],
+        [
+          7.454836119304071,
+          7.454836119304071
+        ],
+        [
+          7.454836119304071,
+          7.454836119304071
+        ]
+      ],
+      "wall_seconds": 0.3057883999999831
+    },
+    {
+      "arm": "S3_K8",
+      "fraction": 0.25,
+      "status": "complete",
+      "mean_kind": "continuous",
+      "covariance_bins": 8,
+      "model_array_bytes": 1093888,
+      "calibration_array_bytes": 9056,
+      "head_array_bytes": 1102944,
+      "actual_total_rank": 64,
+      "compressed_checkpoint_bytes": 1033245,
+      "score_latency_ms_p50": 0.07449999998243584,
+      "score_latency_ms_p95": 0.12322499992478697,
+      "latency_scope": "batch1 head mean/PCA/calibration only, no encoder/tracker/A; 96 calls, first held-out normal source; sequential shared-host measurement",
+      "frame_thresholds": [
+        5.239981789535073,
+        5.239981789535073
+      ],
+      "window_thresholds": [
+        [
+          6.605880948851315,
+          6.605880948851315
+        ],
+        [
+          7.410133684309861,
+          7.410133684309861
+        ],
+        [
+          7.410133684309861,
+          7.410133684309861
+        ],
+        [
+          7.410133684309861,
+          7.410133684309861
+        ],
+        [
+          7.410133684309861,
+          7.410133684309861
+        ]
+      ],
+      "wall_seconds": 0.300275000000056
+    },
+    {
+      "arm": "S4_K4",
+      "fraction": 0.25,
+      "status": "complete",
+      "mean_kind": "bins4",
+      "covariance_bins": 4,
+      "model_array_bytes": 884992,
+      "calibration_array_bytes": 9056,
+      "head_array_bytes": 894048,
+      "actual_total_rank": 64,
+      "compressed_checkpoint_bytes": 823606,
+      "score_latency_ms_p50": 0.10454999983267044,
+      "score_latency_ms_p95": 0.1242750000756132,
+      "latency_scope": "batch1 head mean/PCA/calibration only, no encoder/tracker/A; 96 calls, first held-out normal source; sequential shared-host measurement",
+      "frame_thresholds": [
+        5.645446897643238,
+        5.645446897643238
+      ],
+      "window_thresholds": [
+        [
+          6.817306987942366,
+          6.908823209208233
+        ],
+        [
+          6.908823209208233,
+          7.041871549832802
+        ],
+        [
+          6.908823209208233,
+          7.041871549832802
+        ],
+        [
+          6.908823209208233,
+          7.041871549832802
+        ],
+        [
+          6.908823209208233,
+          7.041871549832802
+        ]
+      ],
+      "wall_seconds": 0.28019600000016
+    },
+    {
+      "arm": "S4_K8",
+      "fraction": 0.25,
+      "status": "complete",
+      "mean_kind": "bins8",
+      "covariance_bins": 8,
+      "model_array_bytes": 983296,
+      "calibration_array_bytes": 9056,
+      "head_array_bytes": 992352,
+      "actual_total_rank": 64,
+      "compressed_checkpoint_bytes": 897160,
+      "score_latency_ms_p50": 0.12040000001434237,
+      "score_latency_ms_p95": 0.13697499980480643,
+      "latency_scope": "batch1 head mean/PCA/calibration only, no encoder/tracker/A; 96 calls, first held-out normal source; sequential shared-host measurement",
+      "frame_thresholds": [
+        4.39268392914787,
+        4.952299717083292
+      ],
+      "window_thresholds": [
+        [
+          6.704038898091976,
+          6.704038898091976
+        ],
+        [
+          8.356451281082695,
+          8.356451281082695
+        ],
+        [
+          8.356451281082695,
+          8.356451281082695
+        ],
+        [
+          8.356451281082695,
+          8.356451281082695
+        ],
+        [
+          8.356451281082695,
+          8.356451281082695
+        ]
+      ],
+      "wall_seconds": 0.2891395999999986
+    },
+    {
+      "arm": "S5",
+      "fraction": 0.25,
+      "status": "complete",
+      "mean_kind": "continuous",
+      "covariance_bins": null,
+      "model_array_bytes": 208896,
+      "calibration_array_bytes": 4528,
+      "head_array_bytes": 213424,
+      "actual_total_rank": 0,
+      "compressed_checkpoint_bytes": 198451,
+      "score_latency_ms_p50": 0.025400000140507473,
+      "score_latency_ms_p95": 0.030150000156936585,
+      "latency_scope": "batch1 head mean/PCA/calibration only, no encoder/tracker/A; 96 calls, first held-out normal source; sequential shared-host measurement",
+      "frame_thresholds": [
+        5.239981789535073,
+        5.239981789535073
+      ],
+      "window_thresholds": [
+        [
+          6.6007793899309455,
+          6.605683695580813
+        ],
+        [
+          6.605683695580813,
+          7.041871549832802
+        ],
+        [
+          6.605683695580813,
+          7.041871549832802
+        ],
+        [
+          6.605683695580813,
+          7.041871549832802
+        ],
+        [
+          6.605683695580813,
+          7.041871549832802
+        ]
+      ],
+      "wall_seconds": 0.18415509999977075
+    },
+    {
+      "arm": "S0",
+      "fraction": 0.5,
+      "status": "complete",
+      "mean_kind": "global",
+      "covariance_bins": 0,
+      "model_array_bytes": 811264,
+      "calibration_array_bytes": 9056,
+      "head_array_bytes": 820320,
+      "actual_total_rank": 64,
+      "compressed_checkpoint_bytes": 763591,
+      "score_latency_ms_p50": 0.06970000004002941,
+      "score_latency_ms_p95": 0.08222500002830202,
+      "latency_scope": "batch1 head mean/PCA/calibration only, no encoder/tracker/A; 96 calls, first held-out normal source; sequential shared-host measurement",
+      "frame_thresholds": [
+        4.952299717083292,
+        4.952299717083292
+      ],
+      "window_thresholds": [
+        [
+          6.519672864580177,
+          6.519672864580177
+        ],
+        [
+          6.820700979699628,
+          7.041871549832802
+        ],
+        [
+          6.820700979699628,
+          7.041871549832802
+        ],
+        [
+          6.820700979699628,
+          7.041871549832802
+        ],
+        [
+          6.820700979699628,
+          7.041871549832802
+        ]
+      ],
+      "wall_seconds": 0.3850427000002128
+    },
+    {
+      "arm": "S1",
+      "fraction": 0.5,
+      "status": "complete",
+      "mean_kind": "continuous",
+      "covariance_bins": 0,
+      "model_array_bytes": 1007872,
+      "calibration_array_bytes": 9056,
+      "head_array_bytes": 1016928,
+      "actual_total_rank": 64,
+      "compressed_checkpoint_bytes": 946526,
+      "score_latency_ms_p50": 0.08179999986168696,
+      "score_latency_ms_p95": 0.09775000000900036,
+      "latency_scope": "batch1 head mean/PCA/calibration only, no encoder/tracker/A; 96 calls, first held-out normal source; sequential shared-host measurement",
+      "frame_thresholds": [
+        6.7341624325175005,
+        6.7341624325175005
+      ],
+      "window_thresholds": [
+        [
+          7.1362780763965645,
+          7.1362780763965645
+        ],
+        [
+          7.158585045116957,
+          7.158585045116957
+        ],
+        [
+          7.158585045116957,
+          7.158585045116957
+        ],
+        [
+          7.158585045116957,
+          7.158585045116957
+        ],
+        [
+          7.158585045116957,
+          7.158585045116957
+        ]
+      ],
+      "wall_seconds": 0.40766590000021097
+    },
+    {
+      "arm": "S2_K4",
+      "fraction": 0.5,
+      "status": "complete",
+      "mean_kind": "bins4",
+      "covariance_bins": 0,
+      "model_array_bytes": 848128,
+      "calibration_array_bytes": 9056,
+      "head_array_bytes": 857184,
+      "actual_total_rank": 64,
+      "compressed_checkpoint_bytes": 796956,
+      "score_latency_ms_p50": 0.07589999995616381,
+      "score_latency_ms_p95": 0.1374499998973988,
+      "latency_scope": "batch1 head mean/PCA/calibration only, no encoder/tracker/A; 96 calls, first held-out normal source; sequential shared-host measurement",
+      "frame_thresholds": [
+        5.645446897643238,
+        5.645446897643238
+      ],
+      "window_thresholds": [
+        [
+          6.643013965616413,
+          6.643013965616413
+        ],
+        [
+          6.907130413063683,
+          7.041871549832802
+        ],
+        [
+          6.907130413063683,
+          7.041871549832802
+        ],
+        [
+          6.907130413063683,
+          7.041871549832802
+        ],
+        [
+          6.907130413063683,
+          7.041871549832802
+        ]
+      ],
+      "wall_seconds": 0.41609230000040043
+    },
+    {
+      "arm": "S2_K8",
+      "fraction": 0.5,
+      "status": "complete",
+      "mean_kind": "bins8",
+      "covariance_bins": 0,
+      "model_array_bytes": 897280,
+      "calibration_array_bytes": 9056,
+      "head_array_bytes": 906336,
+      "actual_total_rank": 64,
+      "compressed_checkpoint_bytes": 842300,
+      "score_latency_ms_p50": 0.07414999981847359,
+      "score_latency_ms_p95": 0.08277500023723405,
+      "latency_scope": "batch1 head mean/PCA/calibration only, no encoder/tracker/A; 96 calls, first held-out normal source; sequential shared-host measurement",
+      "frame_thresholds": [
+        5.645446897643238,
+        5.645446897643238
+      ],
+      "window_thresholds": [
+        [
+          6.766396944471098,
+          6.766396944471098
+        ],
+        [
+          6.923604383542701,
+          7.041871549832802
+        ],
+        [
+          6.923604383542701,
+          7.041871549832802
+        ],
+        [
+          6.923604383542701,
+          7.041871549832802
+        ],
+        [
+          6.923604383542701,
+          7.041871549832802
+        ]
+      ],
+      "wall_seconds": 0.38726309999992736
+    },
+    {
+      "arm": "S3_K4",
+      "fraction": 0.5,
+      "status": "complete",
+      "mean_kind": "continuous",
+      "covariance_bins": 4,
+      "model_array_bytes": 1044736,
+      "calibration_array_bytes": 9056,
+      "head_array_bytes": 1053792,
+      "actual_total_rank": 64,
+      "compressed_checkpoint_bytes": 984998,
+      "score_latency_ms_p50": 0.07030000006125192,
+      "score_latency_ms_p95": 0.0791499998058498,
+      "latency_scope": "batch1 head mean/PCA/calibration only, no encoder/tracker/A; 96 calls, first held-out normal source; sequential shared-host measurement",
+      "frame_thresholds": [
+        7.504735067511781,
+        7.504735067511781
+      ],
+      "window_thresholds": [
+        [
+          8.147954204342458,
+          8.147954204342458
+        ],
+        [
+          8.620270282798574,
+          8.620270282798574
+        ],
+        [
+          8.620270282798574,
+          8.620270282798574
+        ],
+        [
+          8.620270282798574,
+          8.620270282798574
+        ],
+        [
+          8.620270282798574,
+          8.620270282798574
+        ]
+      ],
+      "wall_seconds": 0.3290639000001647
+    },
+    {
+      "arm": "S3_K8",
+      "fraction": 0.5,
+      "status": "complete",
+      "mean_kind": "continuous",
+      "covariance_bins": 8,
+      "model_array_bytes": 1093888,
+      "calibration_array_bytes": 9056,
+      "head_array_bytes": 1102944,
+      "actual_total_rank": 64,
+      "compressed_checkpoint_bytes": 1032710,
+      "score_latency_ms_p50": 0.07494999999835272,
+      "score_latency_ms_p95": 0.08465000018986757,
+      "latency_scope": "batch1 head mean/PCA/calibration only, no encoder/tracker/A; 96 calls, first held-out normal source; sequential shared-host measurement",
+      "frame_thresholds": [
+        6.975122844972481,
+        6.975122844972481
+      ],
+      "window_thresholds": [
+        [
+          8.044623579854878,
+          8.044623579854878
+        ],
+        [
+          8.31046491974817,
+          8.31046491974817
+        ],
+        [
+          8.31046491974817,
+          8.31046491974817
+        ],
+        [
+          8.31046491974817,
+          8.31046491974817
+        ],
+        [
+          8.31046491974817,
+          8.31046491974817
+        ]
+      ],
+      "wall_seconds": 0.3428051000000778
+    },
+    {
+      "arm": "S4_K4",
+      "fraction": 0.5,
+      "status": "complete",
+      "mean_kind": "bins4",
+      "covariance_bins": 4,
+      "model_array_bytes": 884992,
+      "calibration_array_bytes": 9056,
+      "head_array_bytes": 894048,
+      "actual_total_rank": 64,
+      "compressed_checkpoint_bytes": 826252,
+      "score_latency_ms_p50": 0.06225000015547266,
+      "score_latency_ms_p95": 0.0719249999292515,
+      "latency_scope": "batch1 head mean/PCA/calibration only, no encoder/tracker/A; 96 calls, first held-out normal source; sequential shared-host measurement",
+      "frame_thresholds": [
+        7.2169245032841705,
+        7.2169245032841705
+      ],
+      "window_thresholds": [
+        [
+          7.875651960569448,
+          7.875651960569448
+        ],
+        [
+          8.518683814265183,
+          8.518683814265183
+        ],
+        [
+          8.518683814265183,
+          8.518683814265183
+        ],
+        [
+          8.518683814265183,
+          8.518683814265183
+        ],
+        [
+          8.518683814265183,
+          8.518683814265183
+        ]
+      ],
+      "wall_seconds": 0.3075023000001238
+    },
+    {
+      "arm": "S4_K8",
+      "fraction": 0.5,
+      "status": "complete",
+      "mean_kind": "bins8",
+      "covariance_bins": 8,
+      "model_array_bytes": 983296,
+      "calibration_array_bytes": 9056,
+      "head_array_bytes": 992352,
+      "actual_total_rank": 64,
+      "compressed_checkpoint_bytes": 903046,
+      "score_latency_ms_p50": 0.06589999975403771,
+      "score_latency_ms_p95": 0.09057499994469254,
+      "latency_scope": "batch1 head mean/PCA/calibration only, no encoder/tracker/A; 96 calls, first held-out normal source; sequential shared-host measurement",
+      "frame_thresholds": [
+        6.583603721870146,
+        6.617363467025339
+      ],
+      "window_thresholds": [
+        [
+          7.527078109985841,
+          7.527078109985841
+        ],
+        [
+          7.540777627867143,
+          7.540777627867143
+        ],
+        [
+          7.540777627867143,
+          7.540777627867143
+        ],
+        [
+          7.540777627867143,
+          7.540777627867143
+        ],
+        [
+          7.540777627867143,
+          7.540777627867143
+        ]
+      ],
+      "wall_seconds": 0.3141688000000613
+    },
+    {
+      "arm": "S5",
+      "fraction": 0.5,
+      "status": "complete",
+      "mean_kind": "continuous",
+      "covariance_bins": null,
+      "model_array_bytes": 208896,
+      "calibration_array_bytes": 4528,
+      "head_array_bytes": 213424,
+      "actual_total_rank": 0,
+      "compressed_checkpoint_bytes": 198516,
+      "score_latency_ms_p50": 0.02519999998185085,
+      "score_latency_ms_p95": 0.028124999857936928,
+      "latency_scope": "batch1 head mean/PCA/calibration only, no encoder/tracker/A; 96 calls, first held-out normal source; sequential shared-host measurement",
+      "frame_thresholds": [
+        6.341294604231671,
+        6.463206685298734
+      ],
+      "window_thresholds": [
+        [
+          6.732788176361872,
+          7.041871549832802
+        ],
+        [
+          7.103056296119208,
+          7.103056296119208
+        ],
+        [
+          7.103056296119208,
+          7.103056296119208
+        ],
+        [
+          7.103056296119208,
+          7.103056296119208
+        ],
+        [
+          7.103056296119208,
+          7.103056296119208
+        ]
+      ],
+      "wall_seconds": 0.18628069999977015
+    },
+    {
+      "arm": "S0",
+      "fraction": 1.0,
+      "status": "complete",
+      "mean_kind": "global",
+      "covariance_bins": 0,
+      "model_array_bytes": 811264,
+      "calibration_array_bytes": 9056,
+      "head_array_bytes": 820320,
+      "actual_total_rank": 64,
+      "compressed_checkpoint_bytes": 763824,
+      "score_latency_ms_p50": 0.0706499999978405,
+      "score_latency_ms_p95": 0.07549999997991108,
+      "latency_scope": "batch1 head mean/PCA/calibration only, no encoder/tracker/A; 96 calls, first held-out normal source; sequential shared-host measurement",
+      "frame_thresholds": [
+        4.546834608975128,
+        4.546834608975128
+      ],
+      "window_thresholds": [
+        [
+          4.952299717083292,
+          4.952299717083292
+        ],
+        [
+          7.087896886323921,
+          7.087896886323921
+        ],
+        [
+          7.087896886323921,
+          7.087896886323921
+        ],
+        [
+          7.087896886323921,
+          7.087896886323921
+        ],
+        [
+          7.087896886323921,
+          7.087896886323921
+        ]
+      ],
+      "wall_seconds": 0.4567399000002297
+    },
+    {
+      "arm": "S1",
+      "fraction": 1.0,
+      "status": "complete",
+      "mean_kind": "continuous",
+      "covariance_bins": 0,
+      "model_array_bytes": 1007872,
+      "calibration_array_bytes": 9056,
+      "head_array_bytes": 1016928,
+      "actual_total_rank": 64,
+      "compressed_checkpoint_bytes": 946798,
+      "score_latency_ms_p50": 0.07989999994606478,
+      "score_latency_ms_p95": 0.0912250000055792,
+      "latency_scope": "batch1 head mean/PCA/calibration only, no encoder/tracker/A; 96 calls, first held-out normal source; sequential shared-host measurement",
+      "frame_thresholds": [
+        6.55659651518325,
+        6.55659651518325
+      ],
+      "window_thresholds": [
+        [
+          6.78168964437228,
+          6.78168964437228
+        ],
+        [
+          6.938135271046652,
+          7.041871549832802
+        ],
+        [
+          6.938135271046652,
+          7.041871549832802
+        ],
+        [
+          6.938135271046652,
+          7.041871549832802
+        ],
+        [
+          6.938135271046652,
+          7.041871549832802
+        ]
+      ],
+      "wall_seconds": 0.4434034000000793
+    },
+    {
+      "arm": "S2_K4",
+      "fraction": 1.0,
+      "status": "complete",
+      "mean_kind": "bins4",
+      "covariance_bins": 0,
+      "model_array_bytes": 848128,
+      "calibration_array_bytes": 9056,
+      "head_array_bytes": 857184,
+      "actual_total_rank": 64,
+      "compressed_checkpoint_bytes": 797262,
+      "score_latency_ms_p50": 0.07420000019919826,
+      "score_latency_ms_p95": 0.0892000001613269,
+      "latency_scope": "batch1 head mean/PCA/calibration only, no encoder/tracker/A; 96 calls, first held-out normal source; sequential shared-host measurement",
+      "frame_thresholds": [
+        4.952299717083292,
+        4.952299717083292
+      ],
+      "window_thresholds": [
+        [
+          5.239981789535073,
+          5.239981789535073
+        ],
+        [
+          7.004482995869424,
+          7.041871549832802
+        ],
+        [
+          7.004482995869424,
+          7.041871549832802
+        ],
+        [
+          7.004482995869424,
+          7.041871549832802
+        ],
+        [
+          7.004482995869424,
+          7.041871549832802
+        ]
+      ],
+      "wall_seconds": 0.45048929999984466
+    },
+    {
+      "arm": "S2_K8",
+      "fraction": 1.0,
+      "status": "complete",
+      "mean_kind": "bins8",
+      "covariance_bins": 0,
+      "model_array_bytes": 897280,
+      "calibration_array_bytes": 9056,
+      "head_array_bytes": 906336,
+      "actual_total_rank": 64,
+      "compressed_checkpoint_bytes": 843032,
+      "score_latency_ms_p50": 0.07274999984474562,
+      "score_latency_ms_p95": 0.08455000011053926,
+      "latency_scope": "batch1 head mean/PCA/calibration only, no encoder/tracker/A; 96 calls, first held-out normal source; sequential shared-host measurement",
+      "frame_thresholds": [
+        4.952299717083292,
+        4.952299717083292
+      ],
+      "window_thresholds": [
+        [
+          5.645446897643238,
+          5.645446897643238
+        ],
+        [
+          6.894137042978782,
+          7.041871549832802
+        ],
+        [
+          6.894137042978782,
+          7.041871549832802
+        ],
+        [
+          6.894137042978782,
+          7.041871549832802
+        ],
+        [
+          6.894137042978782,
+          7.041871549832802
+        ]
+      ],
+      "wall_seconds": 0.4650372000000971
+    },
+    {
+      "arm": "S3_K4",
+      "fraction": 1.0,
+      "status": "complete",
+      "mean_kind": "continuous",
+      "covariance_bins": 4,
+      "model_array_bytes": 1044736,
+      "calibration_array_bytes": 9056,
+      "head_array_bytes": 1053792,
+      "actual_total_rank": 64,
+      "compressed_checkpoint_bytes": 984541,
+      "score_latency_ms_p50": 0.07725000000391447,
+      "score_latency_ms_p95": 0.09405000002971065,
+      "latency_scope": "batch1 head mean/PCA/calibration only, no encoder/tracker/A; 96 calls, first held-out normal source; sequential shared-host measurement",
+      "frame_thresholds": [
+        6.910014978959119,
+        6.910014978959119
+      ],
+      "window_thresholds": [
+        [
+          7.318042855632756,
+          7.318042855632756
+        ],
+        [
+          7.532717874389109,
+          7.532717874389109
+        ],
+        [
+          7.532717874389109,
+          7.532717874389109
+        ],
+        [
+          7.532717874389109,
+          7.532717874389109
+        ],
+        [
+          7.532717874389109,
+          7.532717874389109
+        ]
+      ],
+      "wall_seconds": 0.3622503000001416
+    },
+    {
+      "arm": "S3_K8",
+      "fraction": 1.0,
+      "status": "complete",
+      "mean_kind": "continuous",
+      "covariance_bins": 8,
+      "model_array_bytes": 1093888,
+      "calibration_array_bytes": 9056,
+      "head_array_bytes": 1102944,
+      "actual_total_rank": 64,
+      "compressed_checkpoint_bytes": 1032858,
+      "score_latency_ms_p50": 0.07355000002462475,
+      "score_latency_ms_p95": 0.08354999999937718,
+      "latency_scope": "batch1 head mean/PCA/calibration only, no encoder/tracker/A; 96 calls, first held-out normal source; sequential shared-host measurement",
+      "frame_thresholds": [
+        7.043196793276956,
+        7.043196793276956
+      ],
+      "window_thresholds": [
+        [
+          8.07176770259821,
+          8.07176770259821
+        ],
+        [
+          8.206728833317229,
+          8.206728833317229
+        ],
+        [
+          8.206728833317229,
+          8.206728833317229
+        ],
+        [
+          8.206728833317229,
+          8.206728833317229
+        ],
+        [
+          8.206728833317229,
+          8.206728833317229
+        ]
+      ],
+      "wall_seconds": 0.3550969999996596
+    },
+    {
+      "arm": "S4_K4",
+      "fraction": 1.0,
+      "status": "complete",
+      "mean_kind": "bins4",
+      "covariance_bins": 4,
+      "model_array_bytes": 884992,
+      "calibration_array_bytes": 9056,
+      "head_array_bytes": 894048,
+      "actual_total_rank": 64,
+      "compressed_checkpoint_bytes": 826777,
+      "score_latency_ms_p50": 0.06240000016077829,
+      "score_latency_ms_p95": 0.06732500003181485,
+      "latency_scope": "batch1 head mean/PCA/calibration only, no encoder/tracker/A; 96 calls, first held-out normal source; sequential shared-host measurement",
+      "frame_thresholds": [
+        6.5772564309746,
+        6.5772564309746
+      ],
+      "window_thresholds": [
+        [
+          7.046282576620573,
+          7.046282576620573
+        ],
+        [
+          7.21939978671819,
+          7.21939978671819
+        ],
+        [
+          7.21939978671819,
+          7.21939978671819
+        ],
+        [
+          7.21939978671819,
+          7.21939978671819
+        ],
+        [
+          7.21939978671819,
+          7.21939978671819
+        ]
+      ],
+      "wall_seconds": 0.35168530000009923
+    },
+    {
+      "arm": "S4_K8",
+      "fraction": 1.0,
+      "status": "complete",
+      "mean_kind": "bins8",
+      "covariance_bins": 8,
+      "model_array_bytes": 983296,
+      "calibration_array_bytes": 9056,
+      "head_array_bytes": 992352,
+      "actual_total_rank": 64,
+      "compressed_checkpoint_bytes": 912378,
+      "score_latency_ms_p50": 0.06690000009257346,
+      "score_latency_ms_p95": 0.0749000000723754,
+      "latency_scope": "batch1 head mean/PCA/calibration only, no encoder/tracker/A; 96 calls, first held-out normal source; sequential shared-host measurement",
+      "frame_thresholds": [
+        5.645446897643238,
+        5.645446897643238
+      ],
+      "window_thresholds": [
+        [
+          6.988734253371601,
+          6.988734253371601
+        ],
+        [
+          7.2239381470319,
+          7.2239381470319
+        ],
+        [
+          7.2239381470319,
+          7.2239381470319
+        ],
+        [
+          7.2239381470319,
+          7.2239381470319
+        ],
+        [
+          7.2239381470319,
+          7.2239381470319
+        ]
+      ],
+      "wall_seconds": 0.3633740000000216
+    },
+    {
+      "arm": "S5",
+      "fraction": 1.0,
+      "status": "complete",
+      "mean_kind": "continuous",
+      "covariance_bins": null,
+      "model_array_bytes": 208896,
+      "calibration_array_bytes": 4528,
+      "head_array_bytes": 213424,
+      "actual_total_rank": 0,
+      "compressed_checkpoint_bytes": 198641,
+      "score_latency_ms_p50": 0.025499999992462108,
+      "score_latency_ms_p95": 0.027799999770650174,
+      "latency_scope": "batch1 head mean/PCA/calibration only, no encoder/tracker/A; 96 calls, first held-out normal source; sequential shared-host measurement",
+      "frame_thresholds": [
+        5.645446897643238,
+        5.645446897643238
+      ],
+      "window_thresholds": [
+        [
+          6.690996866369888,
+          6.8842358847753236
+        ],
+        [
+          6.8842358847753236,
+          7.041871549832802
+        ],
+        [
+          6.8842358847753236,
+          7.041871549832802
+        ],
+        [
+          6.8842358847753236,
+          7.041871549832802
+        ],
+        [
+          6.8842358847753236,
+          7.041871549832802
+        ]
+      ],
+      "wall_seconds": 0.19301570000016
+    }
+  ],
+  "harmonics": 8,
+  "ridge": 0.01,
+  "scope": "Appearance head sample efficiency with frozen full-FIT tracker and A, not end-to-end few-shot",
+  "protocol_sha256": "8aeaac7ab365e411d37c034c297dff7a033f6223423f63c07affe74f1a07a4b1",
+  "code_fingerprint": "0337e856a2486e504ee5998da132e06fd9528ea1e1a33bb8043d10218bf49304",
+  "cache_signatures": {
+    "R04/training/14": "b316460679f17db4867e8a2f75592fbb8808024dc0c0aa9c9853fdad0dece43f",
+    "R04/training/22": "e1ef254d99fe22d49ac243fa3f2dd7434ad88672e929ddb64ce8fdcc7b27c30f",
+    "R04/training/23": "561ca088253c22a397a0688052193c011e0704b27c9166564baf9e6de4778871",
+    "R04/training/21": "c0ad8432b6fda9414efb8c880b6531866d0e70663bf74bc43b5abdf1db8b21c6",
+    "R04/training/17": "b0a51ff6c82178f3b712b77d0cb5e1c7fcf09dbf62fdb14ecca64cdea0d62de9",
+    "R04/training/15": "ca1a0ee55666ef981d78a0ae19e0bba506b7df2ef34648343ff684b057aea11c",
+    "R04/training/16": "4b674039d35255d9de52c0e1424586fe826319bf7e025604cf88f379390f8076",
+    "R04/training/10": "84e3d21839db2ace441e882d6c9f079fcd83d6e7613cd210833c90533e05d025",
+    "R04/training/24": "23c5ceb213d76df2189a7ac475dfb17c5fa02d11d7a39e776bd210d6dc0ef168",
+    "R04/training/04": "c3556e6f7d5abe0959e2aa54f4dc5b13f5205cc71a455ca69ade9ad717f46254",
+    "R04/training/25": "19ebd997b4239debc760dfefd682cbe5ebc8f286f4b025af296cd3495e99d368",
+    "R04/training/18": "88853ff204f1ec2f3b6a55b5660ef79458d274f5735ce78544dd29d4da58bab8",
+    "R04/training/12": "c6c90e14802522974ecd11d08377202fe30a312013bc19ad6f96f8148f975ac9",
+    "R04/training/01": "b951a389202f71218b9bf4bcf56819ef6ef45b9e103739313343a2d74dc2c044",
+    "R04/training/11": "b52883a321cb06dfe99edc577b2d67ea57572d510c084d2db31835f633f00163",
+    "R04/training/03": "9ed03684427a7f7102bf934a32302eab6aeeb04a43f6b27e0e0cca6d8f677e59",
+    "R04/training/13": "8b42c73f2cf4caed989d737c553fb79bd2a438a72d07619e7130d7cf4378a693",
+    "R04/training/07": "8294ee8b1624148fc07bc6deeaba2470f0f78da1663d8621e878aba831433f7e",
+    "R04/training/06": "4b2ed8fbe7062948eb3698454d42dd218b4010a1c184c52f2d130f3b801706ea",
+    "R04/training/19": "48ef20189b89f6bc96a61e76fdfa5493c3aa04932260b6eac9dc1249a55d18ff",
+    "R04/training/05": "b5d37d448d3416b27444f408d86d61b27bf528d0fe858aaad0f0eacba7dcbb46",
+    "R04/training/08": "498aae56193644d36a4ee9bb6304b490f2b057736ba5e9715a8a7669e4a24628",
+    "R04/training/09": "946f770663ba210a526e15d2765276665f19d900c8b66878797e326ff072f714",
+    "R04/training/20": "46a1d6b35b6c5d3d1ed6c2ba222ff44480750396a68c4ab6fc148186abc56fb8",
+    "R04/training/02": "f6c7e7528e4527f49b61bb68d5a004c19cbf3872228d77c91d24504429c693b8",
+    "R04/testing/01": "3510d93931b964384c22b7057ff4e94938674f822cd9a6bee09830ac6dfef4fc",
+    "R04/testing/02": "5ef30d14c9d564311eb1269c6040f0df8e8bceb5b510c2acfc8a8f978d35c059",
+    "R04/testing/03": "563bcf27a7db9c611b8cf261f0179163c513328a736f82a3d31166cc6ec8f179",
+    "R04/testing/04": "37b36b9886fc1b78e7dc3bd7397e9b5d32f43f13e6d78ceaefd52f3ea2e61261",
+    "R04/testing/05": "44e3145818063d3dcd2c88726540e3579757cca990c5c791f69cb374b01ae494",
+    "R04/testing/06": "aa581cf22dfd25565d470a58bbb66c80b36507d01b6efe20a57a47694504ad22",
+    "R04/testing/07": "a26c4c573a63bca7822ca11a407d0f190e236a90084f5b232bd83a63ebfe3d3f",
+    "R04/testing/08": "6712c69ff6928110dce3ab765096902f654323683a891bf7551eff53f4d06c88",
+    "R04/testing/09": "624191f60ec7dc66af998213ddf44192cbccb8dcf276daf5756bbf2696449d9c",
+    "R04/testing/10": "b3d330e8062f5d2a42db7fdfd1fe05cf37918aa00db2932f6076ee19b8926a30",
+    "R04/testing/11": "d0c8ffbccfa914095b08f86ea1062ebc27c26ae6ec068ef700dde6f2713dc61a",
+    "R04/testing/12": "8f5ba26291852871cc9bd389335b5e8b06cbd41eb10a2e9adf6bfa1a58dcb4e1",
+    "R04/testing/13": "f5579a103a79c823567c27c3260525117273f85cced2657a22643609a8d31213",
+    "R04/testing/14": "e177b7dae1c7bbe25ba8cb44bbe72ace09cf8afe8dbbdb0d4696171a486443c2",
+    "R04/testing/15": "6f4e7822b63af97561efc89e7afa9742963220cf3d17c196d177191ded75acb9",
+    "R04/testing/16": "3cd16166d3c6ba585026f3a1f37d697b01b16769114545dbbbdf6d1e93113265",
+    "R04/testing/17": "94feeff4f057d0f9bccf187da51e2e8cef11f4e112b2ed98b49d65ee4f3145a9",
+    "R04/testing/18": "14bea6b047ec74d2c626242fe21ddcc6234aea67b279c9c5c0175ca484c55cd9",
+    "R04/testing/19": "cdbc27dc6bf6e32239fcaf15693e3e5fc52489ad80400840a156b1ad96a14661"
+  },
+  "wall_seconds": 11.544561799999883
+}

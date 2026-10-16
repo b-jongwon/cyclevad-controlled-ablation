@@ -1,0 +1,398 @@
+{
+  "status": "complete",
+  "scene": "R02",
+  "seed": 42,
+  "fold": 0,
+  "splits": {
+    "validation": [
+      "R02/training/29",
+      "R02/training/07",
+      "R02/training/15",
+      "R02/training/16"
+    ],
+    "reference": [
+      "R02/training/01",
+      "R02/training/20",
+      "R02/training/03",
+      "R02/training/12"
+    ],
+    "threshold": [
+      "R02/training/18",
+      "R02/training/25",
+      "R02/training/10",
+      "R02/training/28"
+    ],
+    "fit": [
+      "R02/training/09",
+      "R02/training/06",
+      "R02/training/08",
+      "R02/training/30",
+      "R02/training/23",
+      "R02/training/19",
+      "R02/training/26",
+      "R02/training/22",
+      "R02/training/05",
+      "R02/training/21",
+      "R02/training/13",
+      "R02/training/04"
+    ],
+    "normal_evaluation": [
+      "R02/training/17",
+      "R02/training/14",
+      "R02/training/02",
+      "R02/training/11",
+      "R02/training/24",
+      "R02/training/27"
+    ]
+  },
+  "models": [
+    {
+      "arm": "M0",
+      "harmonics": 0,
+      "ridge": 0.01,
+      "rank": 46,
+      "selection": [],
+      "thresholds": {
+        "conditional_only": 4.448516375942715,
+        "appearance_conditional": 5.478135793123873
+      }
+    },
+    {
+      "arm": "M1",
+      "harmonics": 8,
+      "ridge": 0.01,
+      "rank": 64,
+      "selection": [],
+      "thresholds": {
+        "conditional_only": 3.424012059428327,
+        "appearance_conditional": 5.478135793123873
+      }
+    },
+    {
+      "arm": "M2",
+      "harmonics": 8,
+      "ridge": 0.01,
+      "rank": 64,
+      "selection": [],
+      "thresholds": {
+        "conditional_only": 4.314984983318192,
+        "appearance_conditional": 5.478135793123873
+      }
+    },
+    {
+      "arm": "M3",
+      "harmonics": 8,
+      "ridge": 0.01,
+      "rank": 64,
+      "selection": [],
+      "thresholds": {
+        "conditional_only": 4.254360361501758,
+        "appearance_conditional": 5.478135793123873
+      }
+    },
+    {
+      "arm": "M4_1101",
+      "harmonics": 8,
+      "ridge": 0.01,
+      "rank": 64,
+      "selection": [],
+      "thresholds": {
+        "conditional_only": 4.379523504455763,
+        "appearance_conditional": 5.478135793123873
+      }
+    },
+    {
+      "arm": "M4_1102",
+      "harmonics": 8,
+      "ridge": 0.01,
+      "rank": 53,
+      "selection": [],
+      "thresholds": {
+        "conditional_only": 5.14166355650266,
+        "appearance_conditional": 5.478135793123873
+      }
+    },
+    {
+      "arm": "M4_1103",
+      "harmonics": 8,
+      "ridge": 0.01,
+      "rank": 50,
+      "selection": [],
+      "thresholds": {
+        "conditional_only": 4.890349128221754,
+        "appearance_conditional": 5.478135793123873
+      }
+    },
+    {
+      "arm": "M4_1104",
+      "harmonics": 8,
+      "ridge": 0.01,
+      "rank": 53,
+      "selection": [],
+      "thresholds": {
+        "conditional_only": 5.0081321638781375,
+        "appearance_conditional": 5.478135793123873
+      }
+    },
+    {
+      "arm": "M4_1105",
+      "harmonics": 8,
+      "ridge": 0.01,
+      "rank": 50,
+      "selection": [],
+      "thresholds": {
+        "conditional_only": 4.689678432759603,
+        "appearance_conditional": 5.478135793123873
+      }
+    },
+    {
+      "arm": "M0_fixedrank",
+      "harmonics": 0,
+      "ridge": 0.01,
+      "rank": 64,
+      "selection": [],
+      "thresholds": {
+        "conditional_only": 4.448516375942715,
+        "appearance_conditional": 5.478135793123873
+      }
+    },
+    {
+      "arm": "M3_fixedrank",
+      "harmonics": 8,
+      "ridge": 0.01,
+      "rank": 64,
+      "selection": [],
+      "thresholds": {
+        "conditional_only": 4.254360361501758,
+        "appearance_conditional": 5.478135793123873
+      }
+    },
+    {
+      "arm": "M1_retuned",
+      "harmonics": 8,
+      "ridge": 0.01,
+      "rank": 64,
+      "selection": [
+        {
+          "harmonics": 2,
+          "ridge": 0.01,
+          "validation_mse": 1.471654286433477e-05
+        },
+        {
+          "harmonics": 2,
+          "ridge": 0.1,
+          "validation_mse": 1.589978637639433e-05
+        },
+        {
+          "harmonics": 2,
+          "ridge": 1.0,
+          "validation_mse": 3.2682091841707006e-05
+        },
+        {
+          "harmonics": 4,
+          "ridge": 0.01,
+          "validation_mse": 1.10821256384952e-05
+        },
+        {
+          "harmonics": 4,
+          "ridge": 0.1,
+          "validation_mse": 1.237687683897093e-05
+        },
+        {
+          "harmonics": 4,
+          "ridge": 1.0,
+          "validation_mse": 3.0697337933816016e-05
+        },
+        {
+          "harmonics": 8,
+          "ridge": 0.01,
+          "validation_mse": 9.113316991715692e-06
+        },
+        {
+          "harmonics": 8,
+          "ridge": 0.1,
+          "validation_mse": 1.0453620234329719e-05
+        },
+        {
+          "harmonics": 8,
+          "ridge": 1.0,
+          "validation_mse": 2.962073267553933e-05
+        }
+      ],
+      "thresholds": {
+        "conditional_only": 3.424012059428327,
+        "appearance_conditional": 5.478135793123873
+      }
+    },
+    {
+      "arm": "M2_retuned",
+      "harmonics": 8,
+      "ridge": 0.01,
+      "rank": 64,
+      "selection": [
+        {
+          "harmonics": 2,
+          "ridge": 0.01,
+          "validation_mse": 1.3844575732946396e-05
+        },
+        {
+          "harmonics": 2,
+          "ridge": 0.1,
+          "validation_mse": 1.5039102436276153e-05
+        },
+        {
+          "harmonics": 2,
+          "ridge": 1.0,
+          "validation_mse": 3.210638169548474e-05
+        },
+        {
+          "harmonics": 4,
+          "ridge": 0.01,
+          "validation_mse": 9.753598533279728e-06
+        },
+        {
+          "harmonics": 4,
+          "ridge": 0.1,
+          "validation_mse": 1.1102498319814913e-05
+        },
+        {
+          "harmonics": 4,
+          "ridge": 1.0,
+          "validation_mse": 2.9926210117992014e-05
+        },
+        {
+          "harmonics": 8,
+          "ridge": 0.01,
+          "validation_mse": 7.064432793413289e-06
+        },
+        {
+          "harmonics": 8,
+          "ridge": 0.1,
+          "validation_mse": 8.462440746370703e-06
+        },
+        {
+          "harmonics": 8,
+          "ridge": 1.0,
+          "validation_mse": 2.8180340450489894e-05
+        }
+      ],
+      "thresholds": {
+        "conditional_only": 4.314984983318192,
+        "appearance_conditional": 5.478135793123873
+      }
+    },
+    {
+      "arm": "M3_retuned",
+      "harmonics": 8,
+      "ridge": 0.01,
+      "rank": 64,
+      "selection": [
+        {
+          "harmonics": 2,
+          "ridge": 0.01,
+          "validation_mse": 1.4228511645342223e-05
+        },
+        {
+          "harmonics": 2,
+          "ridge": 0.1,
+          "validation_mse": 1.542173595225904e-05
+        },
+        {
+          "harmonics": 2,
+          "ridge": 1.0,
+          "validation_mse": 3.2378487958339974e-05
+        },
+        {
+          "harmonics": 4,
+          "ridge": 0.01,
+          "validation_mse": 1.0162339094677009e-05
+        },
+        {
+          "harmonics": 4,
+          "ridge": 0.1,
+          "validation_mse": 1.1500075743242633e-05
+        },
+        {
+          "harmonics": 4,
+          "ridge": 1.0,
+          "validation_mse": 3.0211745979613625e-05
+        },
+        {
+          "harmonics": 8,
+          "ridge": 0.01,
+          "validation_mse": 7.477196049876511e-06
+        },
+        {
+          "harmonics": 8,
+          "ridge": 0.1,
+          "validation_mse": 8.875384082784876e-06
+        },
+        {
+          "harmonics": 8,
+          "ridge": 1.0,
+          "validation_mse": 2.8597438358701766e-05
+        }
+      ],
+      "thresholds": {
+        "conditional_only": 4.254360361501758,
+        "appearance_conditional": 5.478135793123873
+      }
+    }
+  ],
+  "M0_translation_score_max_abs_error": {
+    "fit": 2.1457672119140625e-05,
+    "normal_evaluation": 1.1920928955078125e-05
+  },
+  "M0_fusion_equivalence": true,
+  "M3_mean_equivalence": true,
+  "code_fingerprint": "0337e856a2486e504ee5998da132e06fd9528ea1e1a33bb8043d10218bf49304",
+  "protocol_sha256": "03c87d9e81f0b7c1bfde36fd03fddf2dcc331e714704de56689a917b723aaa5a",
+  "cache_signatures": {
+    "R02/training/29": "39cb2349a2907431856278104dbea51467506b1d993a1da1a85d542bad8c745b",
+    "R02/training/07": "32dbfa59ca14bb13eab00c8b821f3b0ad541de6c5298a0b94eb38405cd5aa887",
+    "R02/training/15": "18106746df1b5fb536b733f0d1a9de1e6d9060e6bc0c58677240fe6d23b3729f",
+    "R02/training/16": "74743afdb78c8aadd7b80a29ff5f19018387f6f39f4f238a121e562d69433541",
+    "R02/training/01": "69089a93ce3e2360b03b7256982294edc1f5b4e08128c5956dfcbbbdde3b0d9a",
+    "R02/training/20": "034802acd86334122094ed7cc0b1aab15f20d322224ea94348c8c8b193ae08b3",
+    "R02/training/03": "4c37c146cd3e71136c26088daf7b0820645fedecbd6372dd20d74310451284d0",
+    "R02/training/12": "d4df7a70fc0501af0b70a7a9c5b94d4a4f645899b1de23956c13c9538367258e",
+    "R02/training/18": "443a8b3e9d27e5be410b706dc1d400414dce6edddbf7fbfa45ad4b91c066ad05",
+    "R02/training/25": "ea3f2dc8c9fe3e30bd38e7f975f07c212346fe7a66edd3d90c922180117cb97c",
+    "R02/training/10": "fde8ca0fdec3be8b32e0355bd71eb650b88b16507b88a2c7322e38d3b4185955",
+    "R02/training/28": "5e46efe84de1fe0610c7e8617cc0d5b6b923550b6eeb9390b820451a13d9cc08",
+    "R02/training/09": "cd8bc72089c99f55aab7fe38185ac8e2f92e1dbd065a1c14476b1efb91cf32ab",
+    "R02/training/06": "97c113e6c0762acbb976e92cfed01fedc954d164f67fb3917ae990535674a345",
+    "R02/training/08": "acdf0ec43f999e2aed0327e202fd21d92ad8fcddd887a10c9ee3c239b26a25bf",
+    "R02/training/30": "c373edc0959a25c7cdf69ea1c0b5611fc4f0cdc57b975c4aef9edc6ddad510c6",
+    "R02/training/23": "43c8e3a06aa528f945e7ada3f88ae49019d7e531969f2657a22f0ac778320f51",
+    "R02/training/19": "ab03e75a1f7489d1130b070b4173398876d6aa92c550e3ca624c0099474bfbf0",
+    "R02/training/26": "7e5099b9683b1c2465b2bae5964b803e3722295ce02b96c93de9595a0c538c25",
+    "R02/training/22": "19ba794ab31f4d5d6f381090e92ab9796cb6d7637a3f83e94fc5cb704a02cd69",
+    "R02/training/05": "892786f519902d9783c6c666aadda96df60955fb784527170c494c0853ca818e",
+    "R02/training/21": "61b3c64bf8d5f7ce8927997ede5795072f3e4ad699803f3a4e1c602303f58121",
+    "R02/training/13": "9432e8933d995c5b71a0eeae595c456898f320e6ac272ac13d8b5cc89728e5a1",
+    "R02/training/04": "ce37ed4d5d95d97ffc9926f3b9613d0c33eee6bcab39d4df539de0764c45b55e",
+    "R02/training/17": "666be3b7c4ff983bed6261845fd88ee67120796a424ba83f0790e98eb6355bbf",
+    "R02/training/14": "b26a8c75123c2c91b421f078d9ef34d81bc30b649fdc22d9ce645c2499629edb",
+    "R02/training/02": "2c4109a751b9eae9d7c71fa52814355168d20b3852caa8546b1dc0e1b87db2f6",
+    "R02/training/11": "0a34749f13743bdc26e03e763ed7f7bd3d8db88813a9a1982087abc8a1637b86",
+    "R02/training/24": "46c1973f601e3505b4f5bfe5527c37e8cf2485b9c86db2d9243cecd825a523a8",
+    "R02/training/27": "a44f0ec8de58fef26a17e2a7a141eecdb5769431e623f207e59a83e9c45b00d8",
+    "R02/testing/01": "910a6161c017049273c0ee1001c935321872f0cc9ccf813f88a585272c990bf3",
+    "R02/testing/02": "67f4d79540b26ce990e840ce21e463447913620709a726b16c791dd1de9a6269",
+    "R02/testing/03": "3da2aae073634139c77bdad2ff9b2a1c041f1064eede74550153c671a4baace4",
+    "R02/testing/04": "7ca42b2ab15dc560b1e19ece4a5e4cfad28e265d66b068986224684189f172fb",
+    "R02/testing/05": "020a3341ac1f658d8c3d39da6ba4aaf29fe929c1307286b8ada92008d2b3ad7b",
+    "R02/testing/06": "5c14ecb954877ddf781e54747e9a18b973cc6d9808d20514eb7ca41e001ed719",
+    "R02/testing/07": "eee830111b24083f909d26c0d411e6cb931fb30d2d5a289386b20c6d8657c3f0",
+    "R02/testing/08": "d4120f3990bdb30c10f958546d99cddb0d8e7383ffbed0dd09ead5b9f6baf078",
+    "R02/testing/09": "3391b784e333844234860e94a5aa8829cdef93a9c098f25b2cfba088e9c7a5e3",
+    "R02/testing/10": "79c94e0e041438eff4561220cf72116742d0c88d071e6c4e993b38e37060ccee",
+    "R02/testing/11": "c871e67e21ded1b2a19c02dc59e8e60edd1253cd061850f30f1aeedbb2154ef3",
+    "R02/testing/12": "2e85c7b6f208c9ab4b4b076061168faf6d385641a3eeaa8543f0e814712dadc7",
+    "R02/testing/13": "55605dcff15ebb7dbe4c0946192dd8e69513679002ac9f4291d45e99d3ae00d6",
+    "R02/testing/14": "268a27a34f14833ae809d3d4c1d1d6153ca77ea0b3cee2582e1f515d5312e9ab",
+    "R02/testing/15": "c85b039fb15b93ec18e7f496e8dc1536ec49c24b079c4f3b836691b8fd60d796"
+  },
+  "wall_seconds": 18.199857200000224
+}

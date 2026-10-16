@@ -1,0 +1,11 @@
+{
+  "source_commit": "7aa58ce893181599c4b5bd6f779fa2461ce3f103",
+  "created_from": "completed controlled_cyclevad_20261016 run",
+  "visibility": "public",
+  "raw_dataset_included": false,
+  "feature_caches_included": false,
+  "checkpoints_included": false,
+  "per_frame_predictions_included": false,
+  "all_numeric_json_csv_included": true,
+  "artifact_count": 2644
+}

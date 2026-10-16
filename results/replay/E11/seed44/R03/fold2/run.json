@@ -1,0 +1,147 @@
+{
+  "status": "complete",
+  "scene": "R03",
+  "fold": 2,
+  "seed": 44,
+  "arms": [
+    "B0",
+    "B1",
+    "B2",
+    "B3",
+    "C",
+    "P"
+  ],
+  "splits": {
+    "validation": [
+      "R03/training/18",
+      "R03/training/10",
+      "R03/training/16"
+    ],
+    "reference": [
+      "R03/training/04",
+      "R03/training/02",
+      "R03/training/21"
+    ],
+    "threshold": [
+      "R03/training/09",
+      "R03/training/11",
+      "R03/training/07"
+    ],
+    "fit": [
+      "R03/training/17",
+      "R03/training/01",
+      "R03/training/06",
+      "R03/training/22",
+      "R03/training/14",
+      "R03/training/12",
+      "R03/training/05",
+      "R03/training/13",
+      "R03/training/19"
+    ],
+    "normal_evaluation": [
+      "R03/training/08",
+      "R03/training/20",
+      "R03/training/15",
+      "R03/training/03"
+    ]
+  },
+  "T": 703.0,
+  "D": 141,
+  "W": 281,
+  "harmonics": 8,
+  "ridge": 0.01,
+  "mean_selection": [
+    {
+      "harmonics": 8,
+      "ridge": 0.01,
+      "validation_mse": 1.7284359273617156e-05
+    }
+  ],
+  "window_thresholds": [
+    [
+      5.856026576212877,
+      5.856026576212877,
+      5.856026576212877,
+      5.856026576212877,
+      3.6588019988766582,
+      4.6520537718869415
+    ],
+    [
+      6.261491684321042,
+      6.261491684321042,
+      6.261491684321042,
+      6.261491684321042,
+      3.8635964115226717,
+      5.162879395652933
+    ],
+    [
+      6.261491684321042,
+      6.261491684321042,
+      6.261491684321042,
+      6.261491684321042,
+      3.8635964115226717,
+      5.162879395652933
+    ],
+    [
+      6.261491684321042,
+      6.261491684321042,
+      6.261491684321042,
+      6.261491684321042,
+      3.8635964115226717,
+      5.162879395652933
+    ],
+    [
+      6.261491684321042,
+      6.261491684321042,
+      6.261491684321042,
+      6.261491684321042,
+      3.8635964115226717,
+      5.162879395652933
+    ]
+  ],
+  "frame_thresholds": [
+    4.875197323201151,
+    4.875197323201151,
+    5.345200952446887,
+    5.345200952446887,
+    3.776585034533042,
+    4.3155815352657285
+  ],
+  "threshold_window_counts": {
+    "R03/training/09": 9,
+    "R03/training/11": 8,
+    "R03/training/07": 8
+  },
+  "edited_cases": 143,
+  "identity_max_error": 0.0,
+  "score_prefix_max_error": 0.0,
+  "tracker_prefix_invariance": true,
+  "conditional_rank": 64,
+  "protocol_sha256": "8aeaac7ab365e411d37c034c297dff7a033f6223423f63c07affe74f1a07a4b1",
+  "code_fingerprint": "0337e856a2486e504ee5998da132e06fd9528ea1e1a33bb8043d10218bf49304",
+  "cache_signatures": {
+    "R03/training/18": "b1386514e4c668e3a30c97b39a46a16158649ab12be610d17d087d0cc835a31e",
+    "R03/training/10": "ec6c3b878145cc32e5722afb85355f4c689406ecb4f5139e86eabb01507e508b",
+    "R03/training/16": "bc46922884e96e262afcbc17780422ca470613f77228d0e1943109b84ef6966e",
+    "R03/training/04": "2d0687c2e043b1f905e897d80eefbe9f7f644b4291c766bcbbad2f2a96b1f458",
+    "R03/training/02": "34027c895a7653da88fc2e68d666b21ee7a69c40ce9fb14351fbf53518714bdb",
+    "R03/training/21": "bf6c09001638a6a7bffa3d619cebc119857e9e87c6cf6fa357a2e44e9c7389bf",
+    "R03/training/09": "c5dc5db3c8b2969840e4688c20137dc7667af6aeaf95f726fa47087a58f3fe99",
+    "R03/training/11": "8bfbef46b6d9c8332857213e5583647fb1cd3907d6c950141283805674fb9644",
+    "R03/training/07": "4bf6330e613607441fb1df74c08b9678eabdbd57185a5874065585356f34a483",
+    "R03/training/17": "c399a8dba7cf2cd917e5a075b6fd0cc7a5b2d3de49f71167a9c2e2a29bdeafbf",
+    "R03/training/01": "e2e7953cbf8309fcf3fd6ddd22d7c06f7dc9496dc7357329258e0eace94e1b46",
+    "R03/training/06": "348bf17f1adbc75e3171f7a27d5d856d95932dd8ee70c3d8eb24b6630a5f07db",
+    "R03/training/22": "255a0a2fdd39ce95bd33adf117a1453d8ac8bcab2bcb1e673fcd196879a83c90",
+    "R03/training/14": "8cb9f87a0963e4da59acf4c6f56dc61a88625f3e327985449f44a89d442a5099",
+    "R03/training/12": "69c5fa47522b56b64939ccf755d9db894821c94cd263c7e2761f29fac7e16e84",
+    "R03/training/05": "b974c313d5b93e822546475ba82170e1ad3b75472086686c0b72d05ea0bb3080",
+    "R03/training/13": "2a456d72ea51a7fc9854fa535fb26dcb777779e66a3ceb13b032e92564d74781",
+    "R03/training/19": "bbc56f713d9255dc049b06c02d84700b1f4a007ef69be440c7392f7481d58428",
+    "R03/training/08": "1a88be8f230907e8cf7aa6548e4ce44ca526a2b7d311a3735489e1551ff6de58",
+    "R03/training/20": "4580eb79c907b7fee6cbe315e0d1c1c58cbedfafa4e7a0c4a080f877425b3fb2",
+    "R03/training/15": "5c6f4592a034c1f5ec4bf210ce0aba9f61f666d700d292726e1cf5659f5068ff",
+    "R03/training/03": "87a4f452b79a636cf9764b9c1cd08ce0c2e6c914a87c5a30b9e0f7537bed03f7"
+  },
+  "wall_seconds": 6.512803900000108
+}

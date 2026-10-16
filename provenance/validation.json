@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "tests": 77,
+  "scope": "upstream unit/smoke suite plus six-arm causal/metric tests; full real-data experiment still running",
+  "command": ".venv/Scripts/python.exe -m pytest local_experiments/references/team_cyclevad_20261016/tests local_experiments/controlled_cyclevad_20261016/test_addons.py -q -p no:cacheprovider --basetemp local_experiments/controlled_cyclevad_20261016/pytest_temp",
+  "source_commit": "7aa58ce893181599c4b5bd6f779fa2461ce3f103"
+}

@@ -1,0 +1,100 @@
+{
+  "status": "complete",
+  "experiment": "E8B",
+  "seed": 43,
+  "scene": "R01",
+  "fold": 3,
+  "splits": {
+    "validation": [
+      "R01/training/21",
+      "R01/training/24",
+      "R01/training/22",
+      "R01/training/32"
+    ],
+    "reference": [
+      "R01/training/13",
+      "R01/training/30",
+      "R01/training/07",
+      "R01/training/03"
+    ],
+    "threshold": [
+      "R01/training/25",
+      "R01/training/15",
+      "R01/training/18",
+      "R01/training/08"
+    ],
+    "fit": [
+      "R01/training/10",
+      "R01/training/04",
+      "R01/training/31",
+      "R01/training/06",
+      "R01/training/17",
+      "R01/training/20",
+      "R01/training/29",
+      "R01/training/12",
+      "R01/training/11",
+      "R01/training/33",
+      "R01/training/02",
+      "R01/training/28",
+      "R01/training/26",
+      "R01/training/16",
+      "R01/training/01"
+    ],
+    "normal_evaluation": [
+      "R01/training/09",
+      "R01/training/05",
+      "R01/training/34",
+      "R01/training/14",
+      "R01/training/27",
+      "R01/training/23",
+      "R01/training/19"
+    ]
+  },
+  "base_arms": [
+    "M0__conditional_only",
+    "M0__appearance_conditional",
+    "M1__conditional_only",
+    "M1__appearance_conditional",
+    "M2__conditional_only",
+    "M2__appearance_conditional",
+    "M3__conditional_only",
+    "M3__appearance_conditional",
+    "M4_1101__conditional_only",
+    "M4_1101__appearance_conditional",
+    "M4_1102__conditional_only",
+    "M4_1102__appearance_conditional",
+    "M4_1103__conditional_only",
+    "M4_1103__appearance_conditional",
+    "M4_1104__conditional_only",
+    "M4_1104__appearance_conditional",
+    "M4_1105__conditional_only",
+    "M4_1105__appearance_conditional"
+  ],
+  "configurations": [
+    "baseline",
+    "adaptive_only",
+    "stall_alarm_only",
+    "stall_fusion_only",
+    "adaptive_fusion",
+    "adaptive_fusion_stall_alarm"
+  ],
+  "baseline_scores_and_alarms_exact": true,
+  "prefix_checks_passed": true,
+  "stall_phase": "shared unmodified base tracker angle; not E8B intervention coordinates",
+  "parameters": {
+    "phase_bins": 16,
+    "minimum_bin_samples": 64,
+    "lags": [
+      1,
+      4
+    ],
+    "ema": 0.5,
+    "stall_quantile": 0.995,
+    "consecutive": 3,
+    "warmup": 24,
+    "low_fraction": 0.2,
+    "gain": 0.3,
+    "stall_multiplier": 1.1
+  },
+  "inference_labels_used": false
+}

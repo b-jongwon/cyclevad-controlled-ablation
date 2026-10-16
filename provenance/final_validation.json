@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "completed_units": {
+    "E8B": 60,
+    "E12": 60,
+    "E11B": 60
+  },
+  "baseline_metric_checks": 15808,
+  "source_and_runner_hashes_match": true,
+  "primary_rows": 54,
+  "errors": []
+}

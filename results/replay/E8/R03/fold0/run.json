@@ -1,0 +1,211 @@
+{
+  "scene": "R03",
+  "fold": 0,
+  "splits": {
+    "validation": [
+      "R03/training/09",
+      "R03/training/06",
+      "R03/training/03"
+    ],
+    "reference": [
+      "R03/training/10",
+      "R03/training/17",
+      "R03/training/02"
+    ],
+    "threshold": [
+      "R03/training/12",
+      "R03/training/11",
+      "R03/training/20"
+    ],
+    "fit": [
+      "R03/training/16",
+      "R03/training/14",
+      "R03/training/21",
+      "R03/training/08",
+      "R03/training/22",
+      "R03/training/13",
+      "R03/training/05",
+      "R03/training/15"
+    ],
+    "normal_evaluation": [
+      "R03/training/19",
+      "R03/training/04",
+      "R03/training/01",
+      "R03/training/07",
+      "R03/training/18"
+    ]
+  },
+  "status": "complete",
+  "config": {
+    "seed": 42,
+    "scenes": [
+      "R01",
+      "R02",
+      "R03",
+      "R04"
+    ],
+    "stride": 2,
+    "batch_size": 8,
+    "workers": 4,
+    "encoder": {
+      "family": "dinov2",
+      "model_id": "facebook/dinov2-base",
+      "revision": "f9e44c814b77203eaa57a6bdbbd535f21ede1415",
+      "image_size": 336,
+      "patch_grid": 6,
+      "patch_dim": 64,
+      "feature_layers": [
+        -1,
+        -3
+      ],
+      "seed": 42,
+      "device": "cuda"
+    },
+    "model": {
+      "seed": 42,
+      "cycle_grid": 128,
+      "cycle_latent": 24,
+      "harmonics_candidates": [
+        2,
+        4,
+        8
+      ],
+      "ridge_candidates": [
+        0.01,
+        0.1,
+        1.0
+      ],
+      "fit_samples": 4096,
+      "subspace_rank": 64,
+      "local_memory": 96,
+      "threshold_quantile": 0.99,
+      "process_weight": 1.0
+    }
+  },
+  "code_fingerprint": "0337e856a2486e504ee5998da132e06fd9528ea1e1a33bb8043d10218bf49304",
+  "diagnostics": {
+    "conditional_subspace": {
+      "rank": 64,
+      "samples": 2772,
+      "retained_variance": 0.8449475765228271,
+      "variance_target_met": false
+    },
+    "pooled_subspace": {
+      "rank": 60,
+      "samples": 2772,
+      "retained_variance": 0.9500125050544739,
+      "variance_target_met": true
+    },
+    "cycle": {
+      "normal_cycle_candidates": 8,
+      "median_period_source_frames": 706.0,
+      "template_temperature": 0.06110781812446798,
+      "period_q10_q90": [
+        648.2,
+        715.8
+      ]
+    },
+    "mean_fit_cycle_confidence": 0.6924060956970799,
+    "selected_harmonics": 8,
+    "selected_ridge": 0.01,
+    "selection": [
+      {
+        "harmonics": 2,
+        "ridge": 0.01,
+        "normal_validation_mse": 2.5681360057205893e-05
+      },
+      {
+        "harmonics": 2,
+        "ridge": 0.1,
+        "normal_validation_mse": 2.688493077585008e-05
+      },
+      {
+        "harmonics": 2,
+        "ridge": 1.0,
+        "normal_validation_mse": 3.7474819691851735e-05
+      },
+      {
+        "harmonics": 4,
+        "ridge": 0.01,
+        "normal_validation_mse": 2.2587657440453768e-05
+      },
+      {
+        "harmonics": 4,
+        "ridge": 0.1,
+        "normal_validation_mse": 2.3468986910302192e-05
+      },
+      {
+        "harmonics": 4,
+        "ridge": 1.0,
+        "normal_validation_mse": 3.510489477775991e-05
+      },
+      {
+        "harmonics": 8,
+        "ridge": 0.01,
+        "normal_validation_mse": 1.8732884200289845e-05
+      },
+      {
+        "harmonics": 8,
+        "ridge": 0.1,
+        "normal_validation_mse": 1.9329505448695272e-05
+      },
+      {
+        "harmonics": 8,
+        "ridge": 1.0,
+        "normal_validation_mse": 3.203321830369532e-05
+      }
+    ]
+  },
+  "encoder_identity": "{\"device\": \"cuda\", \"extractor_version\": 1, \"family\": \"dinov2\", \"feature_layers\": [-1, -3], \"image_size\": 336, \"model_id\": \"facebook/dinov2-base\", \"patch_dim\": 64, \"patch_grid\": 6, \"preprocessing\": \"full_frame_letterbox\", \"resolved_revision\": \"f9e44c814b77203eaa57a6bdbbd535f21ede1415\", \"revision\": \"f9e44c814b77203eaa57a6bdbbd535f21ede1415\", \"seed\": 42, \"torch\": \"2.7.1+cu128\"}",
+  "cache_signatures": {
+    "R03/training/09": "2bec31ea2d94de0658acd4740256d9554f39aec0008989d090b88350de9dbed4",
+    "R03/training/06": "a869f00ead471dc899138d6b339aeee3dbbded5331badae0651752ddd81cfde0",
+    "R03/training/03": "b5d03c7b55d42d8ddee61707d8f293b464aeb8e5cf31e540accd95705295624c",
+    "R03/training/10": "654176e7094e83975cf989185f1bc62025092bacd7e3c3cefd8ba81c723e4a4a",
+    "R03/training/17": "b89a9ba7247b5b18195d166fddd421e4973c5daa7137434271e6ecf7277a37d1",
+    "R03/training/02": "8f47c9c9573941453164a180244ca2d616c9c25f7cc4f93a61cc4bde67c12273",
+    "R03/training/12": "1d43ebf67c7b010877d8b299475d8a731a3084a836f32fab63a419311096d108",
+    "R03/training/11": "083aca2e0e9951c79380c759b24d652551095b8cc69125f68d6ed5729fb50c82",
+    "R03/training/20": "d4c43f442fd727deda6c1c8699aec5f42069b36440c6ec55055ee3c14bec4fc0",
+    "R03/training/16": "4052924ddfb7cf0401e2d205d92524528eedbcc821b7270480d2287be4309ab0",
+    "R03/training/14": "72eb8da29d9b1b24077bd9504ef69774a397892de176b13f6ee86ada7170c721",
+    "R03/training/21": "120cc84b9efdbc4b5f3767102eabc84fb2a32601d596167f574021f56af5c5c3",
+    "R03/training/08": "199cb36a20ffc9f305dd684cc137667c4e813a0f04d0702e245a7f24916f5423",
+    "R03/training/22": "4c36812ec63e49ee05f05b71ff058e54ac1550af7e5f36a3d7bea3baa8e6d387",
+    "R03/training/13": "9f956041700f80d2f077144f30be6cde662926036571a5e9d4f1b6b3698e28c9",
+    "R03/training/05": "fa223addf7a6523e59101630db3855f21f05ce892c686051065386ced6e78abb",
+    "R03/training/15": "98ff8f774dc62a30f9a7d8b786f24d7cecd3860faf8b5fffed57a9799fb8f1bf",
+    "R03/training/19": "4c3976f0019780403896b02624b80f37f4681a132deb8d1a5e199d2337e5530f",
+    "R03/training/04": "ab618e2f407f6f041ede05bb2f24c0aebd460637c7201dd25f71a25f530561e8",
+    "R03/training/01": "9cdb4a4067719ea39b73166eef024795d71ab27b5d325cadedbdee99802742d6",
+    "R03/training/07": "0f4ec6f39b5d82b506f15aa57636a3de5baf2b1d1068bf4f0e132e7df698975e",
+    "R03/training/18": "092ff66bfc91778a54573b3ad03733ef6979eae00d93d0415837d78f339b7341",
+    "R03/testing/01": "e0d3080b94b1ac0dee1f31e6f5e5079366edbd86f19187fb92c657a6ef1bbe70",
+    "R03/testing/02": "0a0166bb134a7a6b37650d7478e483058e980ec8e4c1e95d64921ae91b18ae05",
+    "R03/testing/03": "bed7dde9a606f3f12ed76b532f3255fb2cfe344fef88f9107f1f3c80ade38be5",
+    "R03/testing/04": "8d68786fb28f5960a9742d29aa1ec85effb3c112036ebe8377decea357f20eb1",
+    "R03/testing/05": "a8902e1c7d0ef26804b70ced9b83dec3400500eac88d3127086f46d3b8b68509",
+    "R03/testing/06": "5b0a470a1f0097f5d19cc874285c0ba55d263ee59c3dec706d70cb2fdd79bf24",
+    "R03/testing/07": "f262e0658d8dd4480df09c47bb67d0a7d2fb22e2306564590c65ec96124a989f",
+    "R03/testing/08": "7b80dc5a32d7952315ef86ae07e67c9b270f8eb1442d68ae0782cd24057079ab",
+    "R03/testing/09": "6297d6860500313e673a9ee36e4a3d1b293c0625b7faae70158e70fb77da80db",
+    "R03/testing/10": "6c846463e2410b316ea91af95304078b53ae82a65c60a01ad3bf3476c6d71c1d",
+    "R03/testing/11": "4fb8029ec4a4b9c9b3cc535b6c41b97cf769a6250affe9cd0add6317b2437067",
+    "R03/testing/12": "32b7de1a7304e7272fe0da5ba4ec4f8fd8f4b53588196d4e4a6c72dfb63b7e59",
+    "R03/testing/13": "ecb17fbd4e95a074230ee6817814746092daf9bd35056316363ab47c9cb532aa",
+    "R03/testing/14": "d74f5e3d88cc9896014115b34e83bc8c1fefcf08acb4993dca1daf9a213539e3",
+    "R03/testing/15": "85cc228a1c49a88004b39027a4517d22855c6487af9d9acc4bcde6956a99cfd4",
+    "R03/testing/16": "27333886cacf89839d56477d80714ac622b87d75a3b79deac18563eb523c1338",
+    "R03/testing/17": "6b2b4b852c73cdc28bc5aa8605641c50b8deadce81c04cd5e43119e1ff6c8902"
+  },
+  "shared_tracker_and_appearance": true,
+  "legacy_refit_equivalence_passed": true,
+  "legacy_score_equivalence_passed": true,
+  "fourier_selection_frozen_across_rows": true,
+  "model_rows": 3,
+  "cells": 9,
+  "readouts_per_cell": 3,
+  "tracking_accuracy": null,
+  "historical_tests_diagnostic_only": true,
+  "wall_seconds": 14.655751499999951
+}

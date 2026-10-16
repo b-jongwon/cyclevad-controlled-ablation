@@ -1,0 +1,422 @@
+[
+  {
+    "base_arm": "M0__conditional_only",
+    "partition": "reference",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "M0__conditional_only",
+    "partition": "threshold",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "M0__conditional_only",
+    "partition": "normal_evaluation",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "M0__appearance_conditional",
+    "partition": "reference",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "M0__appearance_conditional",
+    "partition": "threshold",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "M0__appearance_conditional",
+    "partition": "normal_evaluation",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "M1__conditional_only",
+    "partition": "reference",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "M1__conditional_only",
+    "partition": "threshold",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "M1__conditional_only",
+    "partition": "normal_evaluation",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "M1__appearance_conditional",
+    "partition": "reference",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "M1__appearance_conditional",
+    "partition": "threshold",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "M1__appearance_conditional",
+    "partition": "normal_evaluation",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "M2__conditional_only",
+    "partition": "reference",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "M2__conditional_only",
+    "partition": "threshold",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "M2__conditional_only",
+    "partition": "normal_evaluation",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "M2__appearance_conditional",
+    "partition": "reference",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "M2__appearance_conditional",
+    "partition": "threshold",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "M2__appearance_conditional",
+    "partition": "normal_evaluation",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "M3__conditional_only",
+    "partition": "reference",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "M3__conditional_only",
+    "partition": "threshold",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "M3__conditional_only",
+    "partition": "normal_evaluation",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "M3__appearance_conditional",
+    "partition": "reference",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "M3__appearance_conditional",
+    "partition": "threshold",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "M3__appearance_conditional",
+    "partition": "normal_evaluation",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "M4_1101__conditional_only",
+    "partition": "reference",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "M4_1101__conditional_only",
+    "partition": "threshold",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "M4_1101__conditional_only",
+    "partition": "normal_evaluation",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "M4_1101__appearance_conditional",
+    "partition": "reference",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "M4_1101__appearance_conditional",
+    "partition": "threshold",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "M4_1101__appearance_conditional",
+    "partition": "normal_evaluation",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "M4_1102__conditional_only",
+    "partition": "reference",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "M4_1102__conditional_only",
+    "partition": "threshold",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "M4_1102__conditional_only",
+    "partition": "normal_evaluation",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "M4_1102__appearance_conditional",
+    "partition": "reference",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "M4_1102__appearance_conditional",
+    "partition": "threshold",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "M4_1102__appearance_conditional",
+    "partition": "normal_evaluation",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "M4_1103__conditional_only",
+    "partition": "reference",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "M4_1103__conditional_only",
+    "partition": "threshold",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "M4_1103__conditional_only",
+    "partition": "normal_evaluation",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "M4_1103__appearance_conditional",
+    "partition": "reference",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "M4_1103__appearance_conditional",
+    "partition": "threshold",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "M4_1103__appearance_conditional",
+    "partition": "normal_evaluation",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "M4_1104__conditional_only",
+    "partition": "reference",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "M4_1104__conditional_only",
+    "partition": "threshold",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "M4_1104__conditional_only",
+    "partition": "normal_evaluation",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "M4_1104__appearance_conditional",
+    "partition": "reference",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "M4_1104__appearance_conditional",
+    "partition": "threshold",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "M4_1104__appearance_conditional",
+    "partition": "normal_evaluation",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "M4_1105__conditional_only",
+    "partition": "reference",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "M4_1105__conditional_only",
+    "partition": "threshold",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "M4_1105__conditional_only",
+    "partition": "normal_evaluation",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "M4_1105__appearance_conditional",
+    "partition": "reference",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "M4_1105__appearance_conditional",
+    "partition": "threshold",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "M4_1105__appearance_conditional",
+    "partition": "normal_evaluation",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "M0_fixedrank__conditional_only",
+    "partition": "reference",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "M0_fixedrank__conditional_only",
+    "partition": "threshold",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "M0_fixedrank__conditional_only",
+    "partition": "normal_evaluation",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "M0_fixedrank__appearance_conditional",
+    "partition": "reference",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "M0_fixedrank__appearance_conditional",
+    "partition": "threshold",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "M0_fixedrank__appearance_conditional",
+    "partition": "normal_evaluation",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "M3_fixedrank__conditional_only",
+    "partition": "reference",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "M3_fixedrank__conditional_only",
+    "partition": "threshold",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "M3_fixedrank__conditional_only",
+    "partition": "normal_evaluation",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "M3_fixedrank__appearance_conditional",
+    "partition": "reference",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "M3_fixedrank__appearance_conditional",
+    "partition": "threshold",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "M3_fixedrank__appearance_conditional",
+    "partition": "normal_evaluation",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "M1_retuned__conditional_only",
+    "partition": "reference",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "M1_retuned__conditional_only",
+    "partition": "threshold",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "M1_retuned__conditional_only",
+    "partition": "normal_evaluation",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "M1_retuned__appearance_conditional",
+    "partition": "reference",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "M1_retuned__appearance_conditional",
+    "partition": "threshold",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "M1_retuned__appearance_conditional",
+    "partition": "normal_evaluation",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "M2_retuned__conditional_only",
+    "partition": "reference",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "M2_retuned__conditional_only",
+    "partition": "threshold",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "M2_retuned__conditional_only",
+    "partition": "normal_evaluation",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "M2_retuned__appearance_conditional",
+    "partition": "reference",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "M2_retuned__appearance_conditional",
+    "partition": "threshold",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "M2_retuned__appearance_conditional",
+    "partition": "normal_evaluation",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "M3_retuned__conditional_only",
+    "partition": "reference",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "M3_retuned__conditional_only",
+    "partition": "threshold",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "M3_retuned__conditional_only",
+    "partition": "normal_evaluation",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "M3_retuned__appearance_conditional",
+    "partition": "reference",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "M3_retuned__appearance_conditional",
+    "partition": "threshold",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "M3_retuned__appearance_conditional",
+    "partition": "normal_evaluation",
+    "original_local_metrics_equal": true
+  }
+]

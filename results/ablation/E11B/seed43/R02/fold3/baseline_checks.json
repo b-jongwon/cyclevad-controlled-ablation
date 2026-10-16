@@ -1,0 +1,107 @@
+[
+  {
+    "base_arm": "B0",
+    "partition": "reference",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "B0",
+    "partition": "threshold",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "B0",
+    "partition": "normal_evaluation",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "B1",
+    "partition": "reference",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "B1",
+    "partition": "threshold",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "B1",
+    "partition": "normal_evaluation",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "B2",
+    "partition": "reference",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "B2",
+    "partition": "threshold",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "B2",
+    "partition": "normal_evaluation",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "B3",
+    "partition": "reference",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "B3",
+    "partition": "threshold",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "B3",
+    "partition": "normal_evaluation",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "C",
+    "partition": "reference",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "C",
+    "partition": "threshold",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "C",
+    "partition": "normal_evaluation",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "P",
+    "partition": "reference",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "P",
+    "partition": "threshold",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "P",
+    "partition": "normal_evaluation",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "CP",
+    "partition": "reference",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "CP",
+    "partition": "threshold",
+    "original_local_metrics_equal": true
+  },
+  {
+    "base_arm": "CP",
+    "partition": "normal_evaluation",
+    "original_local_metrics_equal": true
+  }
+]

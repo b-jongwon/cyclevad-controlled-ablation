@@ -1,0 +1,542 @@
+[
+  {
+    "scene": "R01",
+    "fold": 3,
+    "partition": "reference",
+    "id": "R01/training/13",
+    "readout": "conditional_only",
+    "normal_quantiles": {
+      "p50": 0.08093980467751272,
+      "p90": 0.16013611727225402,
+      "p99": 0.26731783225088446
+    }
+  },
+  {
+    "scene": "R01",
+    "fold": 3,
+    "partition": "reference",
+    "id": "R01/training/13",
+    "readout": "appearance_conditional",
+    "normal_quantiles": {
+      "p50": 0.8436390729260488,
+      "p90": 2.1469154166979383,
+      "p99": 3.3081069585961433
+    }
+  },
+  {
+    "scene": "R01",
+    "fold": 3,
+    "partition": "reference",
+    "id": "R01/training/13",
+    "readout": "full",
+    "normal_quantiles": {
+      "p50": 1.5367696463283074,
+      "p90": 2.954466918352565,
+      "p99": 4.858704371007311
+    }
+  },
+  {
+    "scene": "R01",
+    "fold": 3,
+    "partition": "reference",
+    "id": "R01/training/30",
+    "readout": "conditional_only",
+    "normal_quantiles": {
+      "p50": 0.2441312134517369,
+      "p90": 0.3492212306650379,
+      "p99": 0.3966218560053291
+    }
+  },
+  {
+    "scene": "R01",
+    "fold": 3,
+    "partition": "reference",
+    "id": "R01/training/30",
+    "readout": "appearance_conditional",
+    "normal_quantiles": {
+      "p50": 2.33870640140804,
+      "p90": 4.0965643189604135,
+      "p99": 5.706002231394514
+    }
+  },
+  {
+    "scene": "R01",
+    "fold": 3,
+    "partition": "reference",
+    "id": "R01/training/30",
+    "readout": "full",
+    "normal_quantiles": {
+      "p50": 2.693740655889312,
+      "p90": 4.239665162601087,
+      "p99": 5.706002231394514
+    }
+  },
+  {
+    "scene": "R01",
+    "fold": 3,
+    "partition": "reference",
+    "id": "R01/training/07",
+    "readout": "conditional_only",
+    "normal_quantiles": {
+      "p50": 0.05766339937630942,
+      "p90": 0.16628369100518148,
+      "p99": 0.21670232848843154
+    }
+  },
+  {
+    "scene": "R01",
+    "fold": 3,
+    "partition": "reference",
+    "id": "R01/training/07",
+    "readout": "appearance_conditional",
+    "normal_quantiles": {
+      "p50": 0.835906960077258,
+      "p90": 1.6353085797556617,
+      "p99": 3.3706273155774773
+    }
+  },
+  {
+    "scene": "R01",
+    "fold": 3,
+    "partition": "reference",
+    "id": "R01/training/07",
+    "readout": "full",
+    "normal_quantiles": {
+      "p50": 1.5735059032080372,
+      "p90": 3.0322902296526864,
+      "p99": 3.9714011760064074
+    }
+  },
+  {
+    "scene": "R01",
+    "fold": 3,
+    "partition": "reference",
+    "id": "R01/training/03",
+    "readout": "conditional_only",
+    "normal_quantiles": {
+      "p50": 0.10857170218342932,
+      "p90": 0.16710688500040682,
+      "p99": 0.22640471248002522
+    }
+  },
+  {
+    "scene": "R01",
+    "fold": 3,
+    "partition": "reference",
+    "id": "R01/training/03",
+    "readout": "appearance_conditional",
+    "normal_quantiles": {
+      "p50": 1.084302743455212,
+      "p90": 1.606117488796798,
+      "p99": 2.3619632635723073
+    }
+  },
+  {
+    "scene": "R01",
+    "fold": 3,
+    "partition": "reference",
+    "id": "R01/training/03",
+    "readout": "full",
+    "normal_quantiles": {
+      "p50": 1.5628675050029812,
+      "p90": 3.585738695194423,
+      "p99": 5.1951766076285235
+    }
+  },
+  {
+    "scene": "R01",
+    "fold": 3,
+    "partition": "threshold",
+    "id": "R01/training/25",
+    "readout": "conditional_only",
+    "normal_quantiles": {
+      "p50": 0.3456736399229487,
+      "p90": 0.4727917384735212,
+      "p99": 0.5307777728834379
+    }
+  },
+  {
+    "scene": "R01",
+    "fold": 3,
+    "partition": "threshold",
+    "id": "R01/training/25",
+    "readout": "appearance_conditional",
+    "normal_quantiles": {
+      "p50": 3.914242762166459,
+      "p90": 6.493220879256159,
+      "p99": 7.523579390135413
+    }
+  },
+  {
+    "scene": "R01",
+    "fold": 3,
+    "partition": "threshold",
+    "id": "R01/training/25",
+    "readout": "full",
+    "normal_quantiles": {
+      "p50": 4.165557190447365,
+      "p90": 6.493220879256159,
+      "p99": 7.523579390135413
+    }
+  },
+  {
+    "scene": "R01",
+    "fold": 3,
+    "partition": "threshold",
+    "id": "R01/training/15",
+    "readout": "conditional_only",
+    "normal_quantiles": {
+      "p50": 0.08409334529783735,
+      "p90": 0.18825572509546495,
+      "p99": 0.2601044652413353
+    }
+  },
+  {
+    "scene": "R01",
+    "fold": 3,
+    "partition": "threshold",
+    "id": "R01/training/15",
+    "readout": "appearance_conditional",
+    "normal_quantiles": {
+      "p50": 1.1490140795479644,
+      "p90": 2.21985533133466,
+      "p99": 4.032025797822842
+    }
+  },
+  {
+    "scene": "R01",
+    "fold": 3,
+    "partition": "threshold",
+    "id": "R01/training/15",
+    "readout": "full",
+    "normal_quantiles": {
+      "p50": 1.7294407048287967,
+      "p90": 2.815630473498349,
+      "p99": 4.319707870274623
+    }
+  },
+  {
+    "scene": "R01",
+    "fold": 3,
+    "partition": "threshold",
+    "id": "R01/training/18",
+    "readout": "conditional_only",
+    "normal_quantiles": {
+      "p50": 0.039731915136549334,
+      "p90": 0.17469154806220016,
+      "p99": 0.31432090111819755
+    }
+  },
+  {
+    "scene": "R01",
+    "fold": 3,
+    "partition": "threshold",
+    "id": "R01/training/18",
+    "readout": "appearance_conditional",
+    "normal_quantiles": {
+      "p50": 1.166266183008942,
+      "p90": 2.2196470413920517,
+      "p99": 3.0204248861443626
+    }
+  },
+  {
+    "scene": "R01",
+    "fold": 3,
+    "partition": "threshold",
+    "id": "R01/training/18",
+    "readout": "full",
+    "normal_quantiles": {
+      "p50": 1.5575904479021376,
+      "p90": 3.0204248861443626,
+      "p99": 4.319707870274623
+    }
+  },
+  {
+    "scene": "R01",
+    "fold": 3,
+    "partition": "threshold",
+    "id": "R01/training/08",
+    "readout": "conditional_only",
+    "normal_quantiles": {
+      "p50": 0.03316869599945446,
+      "p90": 0.13761568011282987,
+      "p99": 0.19000988488798695
+    }
+  },
+  {
+    "scene": "R01",
+    "fold": 3,
+    "partition": "threshold",
+    "id": "R01/training/08",
+    "readout": "appearance_conditional",
+    "normal_quantiles": {
+      "p50": 0.5604645864131284,
+      "p90": 1.5307545600266705,
+      "p99": 2.5561192780132647
+    }
+  },
+  {
+    "scene": "R01",
+    "fold": 3,
+    "partition": "threshold",
+    "id": "R01/training/08",
+    "readout": "full",
+    "normal_quantiles": {
+      "p50": 1.2872342083407307,
+      "p90": 2.9759731235735285,
+      "p99": 4.165557190447365
+    }
+  },
+  {
+    "scene": "R01",
+    "fold": 3,
+    "partition": "normal_evaluation",
+    "id": "R01/training/09",
+    "readout": "conditional_only",
+    "normal_quantiles": {
+      "p50": 0.0582247122058834,
+      "p90": 0.18326321148980868,
+      "p99": 0.29767081150881036
+    }
+  },
+  {
+    "scene": "R01",
+    "fold": 3,
+    "partition": "normal_evaluation",
+    "id": "R01/training/09",
+    "readout": "appearance_conditional",
+    "normal_quantiles": {
+      "p50": 0.8487771505977928,
+      "p90": 1.913192375726392,
+      "p99": 3.167028360336238
+    }
+  },
+  {
+    "scene": "R01",
+    "fold": 3,
+    "partition": "normal_evaluation",
+    "id": "R01/training/09",
+    "readout": "full",
+    "normal_quantiles": {
+      "p50": 1.6455592208480947,
+      "p90": 2.8533708014811965,
+      "p99": 4.011882248374724
+    }
+  },
+  {
+    "scene": "R01",
+    "fold": 3,
+    "partition": "normal_evaluation",
+    "id": "R01/training/05",
+    "readout": "conditional_only",
+    "normal_quantiles": {
+      "p50": 0.07094438397976692,
+      "p90": 0.15057629777150464,
+      "p99": 0.2331078282457127
+    }
+  },
+  {
+    "scene": "R01",
+    "fold": 3,
+    "partition": "normal_evaluation",
+    "id": "R01/training/05",
+    "readout": "appearance_conditional",
+    "normal_quantiles": {
+      "p50": 0.8031996421014737,
+      "p90": 1.5896787624536382,
+      "p99": 4.032025797822842
+    }
+  },
+  {
+    "scene": "R01",
+    "fold": 3,
+    "partition": "normal_evaluation",
+    "id": "R01/training/05",
+    "readout": "full",
+    "normal_quantiles": {
+      "p50": 1.6341305250244718,
+      "p90": 3.278253995446462,
+      "p99": 4.319707870274623
+    }
+  },
+  {
+    "scene": "R01",
+    "fold": 3,
+    "partition": "normal_evaluation",
+    "id": "R01/training/34",
+    "readout": "conditional_only",
+    "normal_quantiles": {
+      "p50": 0.19675264189785804,
+      "p90": 0.36771855753289434,
+      "p99": 0.5405680110276592
+    }
+  },
+  {
+    "scene": "R01",
+    "fold": 3,
+    "partition": "normal_evaluation",
+    "id": "R01/training/34",
+    "readout": "appearance_conditional",
+    "normal_quantiles": {
+      "p50": 2.0005934753293673,
+      "p90": 5.590149715424707,
+      "p99": 7.530944329178192
+    }
+  },
+  {
+    "scene": "R01",
+    "fold": 3,
+    "partition": "normal_evaluation",
+    "id": "R01/training/34",
+    "readout": "full",
+    "normal_quantiles": {
+      "p50": 2.327277705584417,
+      "p90": 5.590149715424707,
+      "p99": 7.530944329178192
+    }
+  },
+  {
+    "scene": "R01",
+    "fold": 3,
+    "partition": "normal_evaluation",
+    "id": "R01/training/14",
+    "readout": "conditional_only",
+    "normal_quantiles": {
+      "p50": 0.06354983378036506,
+      "p90": 0.1541756236956511,
+      "p99": 0.22007389587531048
+    }
+  },
+  {
+    "scene": "R01",
+    "fold": 3,
+    "partition": "normal_evaluation",
+    "id": "R01/training/14",
+    "readout": "appearance_conditional",
+    "normal_quantiles": {
+      "p50": 0.7572674912892314,
+      "p90": 1.4924628393297927,
+      "p99": 1.8919596343265717
+    }
+  },
+  {
+    "scene": "R01",
+    "fold": 3,
+    "partition": "normal_evaluation",
+    "id": "R01/training/14",
+    "readout": "full",
+    "normal_quantiles": {
+      "p50": 1.4670764403613057,
+      "p90": 2.442904651315566,
+      "p99": 3.713572066704308
+    }
+  },
+  {
+    "scene": "R01",
+    "fold": 3,
+    "partition": "normal_evaluation",
+    "id": "R01/training/27",
+    "readout": "conditional_only",
+    "normal_quantiles": {
+      "p50": 0.1219244763531989,
+      "p90": 0.19564640626983365,
+      "p99": 0.27884864184500785
+    }
+  },
+  {
+    "scene": "R01",
+    "fold": 3,
+    "partition": "normal_evaluation",
+    "id": "R01/training/27",
+    "readout": "appearance_conditional",
+    "normal_quantiles": {
+      "p50": 1.3074462947694219,
+      "p90": 1.9843329544575867,
+      "p99": 2.7441715095162045
+    }
+  },
+  {
+    "scene": "R01",
+    "fold": 3,
+    "partition": "normal_evaluation",
+    "id": "R01/training/27",
+    "readout": "full",
+    "normal_quantiles": {
+      "p50": 1.668816083012362,
+      "p90": 3.2210955816065137,
+      "p99": 4.165557190447365
+    }
+  },
+  {
+    "scene": "R01",
+    "fold": 3,
+    "partition": "normal_evaluation",
+    "id": "R01/training/23",
+    "readout": "conditional_only",
+    "normal_quantiles": {
+      "p50": 0.26531827724478796,
+      "p90": 0.4460526852487832,
+      "p99": 0.5300425982180608
+    }
+  },
+  {
+    "scene": "R01",
+    "fold": 3,
+    "partition": "normal_evaluation",
+    "id": "R01/training/23",
+    "readout": "appearance_conditional",
+    "normal_quantiles": {
+      "p50": 4.319707870274623,
+      "p90": 7.763710658460441,
+      "p99": 8.824772882541524
+    }
+  },
+  {
+    "scene": "R01",
+    "fold": 3,
+    "partition": "normal_evaluation",
+    "id": "R01/training/23",
+    "readout": "full",
+    "normal_quantiles": {
+      "p50": 4.319707870274623,
+      "p90": 7.763710658460441,
+      "p99": 8.824772882541524
+    }
+  },
+  {
+    "scene": "R01",
+    "fold": 3,
+    "partition": "normal_evaluation",
+    "id": "R01/training/19",
+    "readout": "conditional_only",
+    "normal_quantiles": {
+      "p50": 0.06830719913350605,
+      "p90": 0.16676749666476107,
+      "p99": 0.210505252306179
+    }
+  },
+  {
+    "scene": "R01",
+    "fold": 3,
+    "partition": "normal_evaluation",
+    "id": "R01/training/19",
+    "readout": "appearance_conditional",
+    "normal_quantiles": {
+      "p50": 0.9934735270859232,
+      "p90": 1.915842004846317,
+      "p99": 3.1157350659486873
+    }
+  },
+  {
+    "scene": "R01",
+    "fold": 3,
+    "partition": "normal_evaluation",
+    "id": "R01/training/19",
+    "readout": "full",
+    "normal_quantiles": {
+      "p50": 1.6455592208480947,
+      "p90": 2.794558370366785,
+      "p99": 3.713572066704308
+    }
+  }
+]
